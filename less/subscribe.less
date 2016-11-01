@@ -1,0 +1,52 @@
+#cbx-subscriber {
+
+  .cbx-testi-inner {
+    background: @black;
+    padding-top: 9rem;
+  }
+
+  h3 {
+    font-family: @font-family-content;
+    font-weight: 700;
+    .font-size(30);
+    color: @white;
+      margin-bottom: 15px;
+  }
+
+  .cbx-subscriber {
+    margin-top: 15px;
+    input {
+      border-radius: 0;
+      border: 1px solid @brand-color;
+      background: @ash;
+      height: 45px;
+        border-radius: 4px;
+        color: @white !important;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    button {
+      background: @brand-color;
+      color: @white;
+      border: 0;
+      text-transform: uppercase;
+      padding: 12px 32px;
+        border-radius: 4px;
+        -webkit-transition: all 0.2 ease;
+        transition: all 0.9s linear;
+      &:hover {
+        background: @brand-color2;
+      }
+    }
+
+  }
+    .form-control {
+        &:focus {
+            border: 1px solid @brand-color2;
+            box-shadow: none;
+            outline: 0 none;
+        }
+    }
+
+
+}

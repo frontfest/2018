@@ -1,0 +1,44 @@
+.cbx-memoris {
+    .cbx-inner {
+        padding-bottom: 0;
+    }
+  .cbx-single-memoris {
+    padding: 0;
+  }
+
+  .single-memoris {
+    //margin: 0 -15px;
+    background: @brand-color;
+      //background: #dc4e41 none repeat scroll 0 0;
+      float: left;
+      margin: 0 auto;
+      width: 25%;
+
+    figure {
+        .cbx-vertical {
+            a {
+                color: @white;
+                .font-size(50);
+                -webkit-transition: all 0.2 ease;
+                transition: all 0.3s linear;
+                &:hover {
+                    color: @brand-color;
+                }
+            }
+        }
+    }
+  }
+
+  .fig-content  {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    span {
+      display: block;
+      clear: both;
+      i {
+        color: @brand-color;
+      }
+    }
+  }
+}

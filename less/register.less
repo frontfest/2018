@@ -1,0 +1,173 @@
+#cbx-register {
+    background: url('http://placehold.it/1920x1000') center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+
+    .cbx-inner {
+        .bg-rgba(@black, .8);
+        padding-bottom: 9rem;
+    }
+
+    .cbx-heading {
+        margin-bottom: 12rem;
+        h2, .h1 {
+            color: @white;
+            .heading-serial {
+                .heading-serial-inner {
+                    color: @brand-color;
+                }
+
+            }
+            .title {
+
+            }
+        }
+        p {
+            color: @white-ash;
+        }
+    }
+
+.recommended-area {
+    position: relative;
+    top: -48px;
+    .recommended {
+        background: @black;
+        color: #ffffff;
+        position: relative;
+        top: -30px;
+        left: 0;
+        display: block;
+        font-family: open sans;
+        font-size: 20px;
+        font-weight: 900;
+        padding: 10px 0;
+        position: relative;
+        text-transform: uppercase;
+        -webkit-transition: all 0.2 ease;
+        transition: all 0.3s linear;
+
+    }
+    &:hover {
+        .recommended {
+            top: -15px;
+            background: transparent;
+            color: @black;
+        }
+    }
+}
+  .cbx-single-pricing {
+      margin-top: 3rem;
+    padding: 30px 0;
+    .bg-rgba(@black, .6);
+    //margin-bottom: 70px;
+    color: @ash;
+      float: left;
+      width: 33.3333%;
+      -webkit-transition: all 0.2 ease;
+      transition: all 0.3s linear;
+
+      h4 {
+          .font-size(30);
+          font-weight: 700;
+          color: @white;
+          .bg-rgba(@white, .1);
+          padding: 5px 0;
+          -webkit-transition: all 0.2 ease;
+          transition: all 0.3s linear;
+      }
+
+      .price-list {
+          margin: 30px 0;
+          li {
+              font-family: @font-family-content;
+              padding: 10px 0;
+              color: #f9f9f9;
+              letter-spacing: .05rem;
+              .font-size(16);
+              font-weight: 600;
+              -webkit-transition: all 0.2 ease;
+              transition: all 0.3s linear;
+          }
+      }
+      .price {
+          .font-size(50);
+          color: @white;
+          font-weight: 900;
+          -webkit-transition: all 0.2 ease;
+          transition: all 0.3s linear;
+          span {
+              .font-size(20);
+              color: @white;
+              font-weight: 400;
+              display: block;
+              line-height: 1rem;
+          }
+      }
+      .buy-btn {
+          margin: 30px 0;
+          a {
+              .font-size(16);
+              .bg-rgba(@white, .3);
+              border-radius: 4px;
+              padding: 8px 20px;
+              color: @white;
+              border: 1px solid @white;
+              -webkit-transition: all 0.2 ease;
+              transition: all 0.3s linear;
+          }
+      }
+
+      &:hover {
+          background: @brand-color2;
+          h4 {
+              color: @white;
+              .bg-rgba(@black, .2);
+          }
+          .price-list {
+              li {
+                  color: @white;
+              }
+          }
+
+          .buy-btn {
+              margin: 30px 0;
+              a {
+                  .bg-rgba(@black, 1);
+                  border: 1px solid @black;
+                  &:hover {
+                      .bg-rgba(@brand-color, 1);
+                      border: 1px solid @brand-color;
+                  }
+              }
+          }
+
+      }
+
+  }
+
+    .cbx-single-center {
+        .bg-rgba(@brand-color, 1);
+        -webkit-transition: all 0.2 ease;
+        transition: all 0.3s linear;
+    }
+    .cbx-single-last {
+        //background: @brand-color;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,115 @@
+#cbx-singlespeaker {
+  .speaker-img {
+    figure {
+      position: relative;
+      figcaption {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        opacity: 0;
+          -webkit-transition: all 0.2 ease;
+          transition: all 0.3s linear;
+      }
+    }
+    &:hover {
+      figcaption {
+        .bg-rgba(@brand-color2, .3);
+        .bg-rgba(@brand-color2, .3);
+        opacity: 1;
+      }
+    }
+  }
+
+  .sp-title {
+    margin-top: 2rem;
+    h3 {
+      font-family: @font-family-content;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: @brand-color;
+      margin-bottom: 10px;
+    }
+    h4 {
+      font-family: @font-family-content;
+      font-weight: 300;
+    }
+    ul {
+      margin-bottom: 50px;
+      li {
+          a {
+              background: @brand-color;
+              height: 40px;
+              width: 40px;
+              margin-top: 15px;
+              color: @white;
+              border-radius: 4px;
+              display: inline-block;
+              text-align: center;
+              -webkit-transition: all 0.2 ease;
+              transition: all 0.3s linear;
+              i {
+                  line-height: 40px;
+                  font-size: 22px;
+              }
+              &:hover {
+                  background: @brand-color2;
+                  i {
+
+                  }
+              }
+          }
+      }
+
+    }
+    p {
+      font-family: @font-family-content;
+      font-weight: 600;
+      .font-size(17);
+      color: @ash;
+        line-height: 3rem;
+        letter-spacing: normal;
+    }
+  }
+
+  .sp-details {
+    margin-top: 50px;
+    h4 {
+      .font-size(24);font-family: @font-family-content;
+      margin-bottom: 2rem;
+      color: @black;
+    }
+    p {
+      font-family: @font-family-content;
+      font-weight: 400;
+      .font-size(16);
+      margin-bottom: 2rem;
+      color: @ash-deep;
+      line-height: 2.8rem;
+        letter-spacing: normal;
+    }
+    .sp-quotation {
+      font-family: @font-family-content;
+      color: @ash;
+      background: @white;
+      padding: 15px 10px;
+      .font-size(17);
+      font-weight: 600;
+      font-style: italic;
+      i {
+        .font-size(20);
+        color: @brand-color;
+      }
+    }
+  }
+
+}
+
+
+.cbx-memoris-single {
+    background: @ash-light;
+}
+

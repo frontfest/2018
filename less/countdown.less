@@ -1,0 +1,173 @@
+#cbx-countdown {
+    background: url('../img/count-bg.jpg') center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+    .cbx-inner {
+        .bg-rgba(@black, 0.90);
+        padding: 100px 0;
+    }
+    .countdown-text {
+        .count-tilte {
+            font-family: @font-family-content;
+            font-weight: 300;
+            .font-size(30);
+            color: @white;
+            margin-bottom: 50px;
+        }
+        font-family: @font-family-content;
+    }
+
+}
+
+
+//*********************************************************************
+////////COUNTDOWN
+//---------------------------------------------------------------------
+
+
+
+
+.lz-circular-countdown-container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.lz-circular-clock-item .lz-circular-inner {
+    height: 0px;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+.lz-circular-clock-canvas {
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    height: 0px;
+    padding-bottom: 100%;
+}
+.lz-circular-text {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    //text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    width: 100%;
+}
+.lz-circular-text .lz-circular-val {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: @font-family-content;;
+}
+
+
+.lz-circular-text .lz-circular-type-time {
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+
+
+    /**
+  MEDIA QUERIES
+  */
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .lz-circular-text {
+        top: 35%;
+    }
+
+    .lz-circular-text .lz-circular-val {
+        font-size: 35px;
+    }
+
+    .lz-circular-text .lz-circular-type-time {
+        font-size: 15px;
+    }
+
+
+}
+
+
+@media (max-width: 767px) {
+
+    .lz-circular-text {
+        top: 30%;
+    }
+    .lz-circular-text .lz-circular-val {
+        font-size: 25px;
+        font-weight: 300;
+        font-family: @font-family-content;;
+    }
+
+    .lz-circular-text .lz-circular-type-time {
+        font-size: 15px;
+    }
+
+    .lz-circular-clock-canvas {
+        visibility: hidden;
+    }
+
+
+    .lz-col-item-title, .lz-col-item-title:hover  {
+        text-align: center;
+    }
+
+    .lz-circular-text {
+        top: 25%;
+    }
+
+    .lz-circular-text {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .lz-countdown-container .col-xs-3 {
+        width: 25%;
+        float: left;
+        margin: 0 auto;
+    }
+
+    .lz-countdown-container .lz-cd-background {
+        border: none;
+    }
+
+    .lz-countdown-container .lz-overlap {
+        font-size: 10px;
+    }
+
+    .lz-countdown-container .lz-cd-number {
+        height: 50px;
+    }
+
+    .lz-countdown-container .lz-cd-number .digit {
+        font-size: 25px;
+    }
+
+    .lz-circular-text {
+        margin-top: -32px;
+    }
+
+    .lz-circular-text .lz-circular-val {
+        font-size: 20px;
+    }
+
+    .lz-circular-text .lz-circular-type-time {
+        font-size: 12px;
+    }
+
+
+}
+

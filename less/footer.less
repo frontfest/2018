@@ -1,0 +1,119 @@
+/**** FOOTER START ***/
+
+#cbx-footer {
+
+  .cbx-footer-inner {
+    background: @black;
+  }
+
+  .cbx-top-inner {
+    position: relative;
+    .cbx-top {
+      font-weight: 700;
+      padding: 3px 16px;
+      position: absolute;
+      right: 10px;
+      bottom: 0;
+      background: @brand-color;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        -webkit-transition: all 0.2 ease;
+        transition: all 0.3s linear;
+
+      a {
+        i {
+          .font-size(20);
+          color: @white;
+        }
+        p {
+          color: @white;
+          text-transform: uppercase;
+          .font-size(20);
+        }
+      }
+      &:hover {
+          background: @brand-color2;
+          color: @brand-light;
+      }
+    }
+  }
+
+  .footer-content {
+    .cbx-copy-symbol {
+      .font-size(18);
+    }
+    color: @ash-light;
+    padding-top: 15px;
+    p {
+      color: @ash;
+    }
+  }
+
+  .footer-social {
+      margin: 3rem 0;
+    ul {
+      li {
+        a {
+            border: 1px solid #444;
+            .bg-rgba(@white, .2);
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            display: inline-block;
+            border-style: double;
+            border-width: thick;
+            -webkit-transition: all 0.2 ease;
+            transition: all 0.3s linear;
+            color: @black;
+            margin-bottom: 1.5rem;
+          i {
+             font-size: 16px;
+              line-height: 38px;
+              -webkit-transition: all 0.2 ease;
+              transition: all 0.3s linear;
+          }
+            &:hover {
+                border-color: @brand-color2;
+                .bg-rgba(@white, 1);
+            }
+
+        }
+          .sp-tw {
+              &:hover {
+                  color: #55acee;
+                  border-color: #55acee;
+              }
+          }
+          .sp-fb {
+              &:hover {
+                  color: #3b5999;
+                  border-color: #3b5999;
+              }
+          }
+          .sp-google{
+              &:hover {
+                  color: #DC4E41;
+                  border-color: #DC4E41;
+              }
+          }
+          .sp-insta {
+              &:hover {
+                  color: #3f729b;
+                  border-color: #3f729b;
+              }
+          }
+          .sp-in {
+              &:hover {
+                  color: #0077B5;
+                  border-color: #0077B5;
+              }
+          }
+      }
+    }
+  }
+
+}
+
+
+
+/**** FOOTER END ***/

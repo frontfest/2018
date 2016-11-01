@@ -1,0 +1,133 @@
+.cbx-schedule {
+    background: #f1f1f1;
+    .cbx-inner {
+        //padding-bottom: 12rem;
+    }
+  .cbx-tab {
+    //background: @ash-light;
+    .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+      background-color: @ash-light;
+      color: @black;
+      border-radius: 0;
+        padding: 1rem 3.5rem;
+    }
+    .nav-pills > li > a {
+      border-radius: 0;
+      color: @white;
+      text-transform: uppercase;
+      font-family: @font-family-content;
+      font-weight: 700;
+      .font-size(16);
+        padding: 1rem 3rem;
+        -webkit-transition: all 0.2 ease;
+        transition: all 0.3s linear;
+
+      span {
+        font-weight: 300;
+        .font-size(14);
+      }
+        &:hover {
+            color: @black;
+            padding: 1rem 3.5rem;
+        }
+    }
+    ul {
+      background: @black;
+        border-radius: 8px;
+      li {
+        display: inline-block;
+        float: none;
+      }
+    }
+    .cbx-tab-content {
+      &:active {
+        display: inline-block;
+        float: none;
+      }
+    }
+  }
+
+  .cbx-single-tab {
+    margin-top: 1rem;
+      .bg-rgba(@black, .8);
+      -webkit-transition: all 0.2 ease;
+      transition: all 0.3s linear;
+
+      .cbx-info {
+          padding-top: 4rem;
+          padding-right: 15px;
+      }
+
+    span {
+        padding-right: 20px;
+
+      a {
+        font-family: @font-family-content;
+        font-weight: 600;
+        .font-size(14);
+        color: #ddd;
+
+      }
+      text-transform: uppercase;
+      i {
+        color: @brand-color2;
+      }
+    }
+
+    h3 {
+      font-family: @font-family-content;
+      font-weight: 700;
+      .font-size(25);
+      padding-top: 0px;
+      padding-bottom: 0px;
+        color: @white;
+    }
+
+    h5 {
+      font-family: @font-family-content;
+      font-weight: 400;
+      padding-bottom: 2rem;
+      .font-size(14);
+        color: @white;
+    }
+
+    p {
+        .font-size(16);
+        line-height: 2.8rem;
+        letter-spacing: normal;
+       padding-bottom: 24px;
+       color: @white-ash;
+    }
+      &:hover {
+          .bg-rgba(@black, 1);
+      }
+
+  }
+
+  .more {
+    span {
+      position: relative;
+      i {
+        position: absolute;
+        top: 11px;
+        right: 13px;
+        color: @ash-light;
+          -webkit-transition: all 0.2 ease;
+          transition: all 0.3s linear;
+      }
+      background: @brand-color;
+      color: @ash-light;
+        padding: 8px 33px 8px 15px;
+      -webkit-transition: all 0.2 ease;
+      transition: all 0.6s linear;
+        border-radius: 4px;
+
+      &:hover {
+        background: @brand-color2;
+        i {
+          right: 5px;
+        }
+      }
+    }
+  }
+}

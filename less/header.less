@@ -1,0 +1,169 @@
+/***** HEADER START ****/
+
+
+
+#cbx-header {
+    background: url('http://placehold.it/1920x1000') center center no-repeat fixed;
+
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+
+    .cbx-header-inner {
+        background: -moz-linear-gradient(top,  rgba(62, 84, 132, 0.9) 0%, rgba(153, 16, 31, 0.8) 200%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left right, color-stop(0%,rgba(153, 16, 31, 0.8)), color-stop(100%,rgba(246, 242, 242, 0.95))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(62, 84, 132, 0.9) 0%,rgba(153, 16, 31, 0.8) 200%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(62, 84, 132, 0.9) 0%,rgba(153, 16, 31, 0.8) 200%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(62, 84, 132, 0.9) 0%,rgba(153, 16, 31, 0.8) 200%); /* IE10+ */
+        background: linear-gradient(to right,  rgba(62, 84, 132, 0.9) 0%,rgba(153, 16, 31, 0.8) 200%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(59, 89, 153, 0.9)', endColorstr='rgba(189, 8, 28, 0.9)',GradientType=0 ); /* IE6-9 */
+        padding-bottom: 100px;
+    }
+
+    /*MoDAL CUSTOM*/
+
+
+    /*New NAvbar*/
+
+    .cbx-navbar {
+        background: none;
+        border-bottom: none;
+        border-color: @brand-dark;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-top: 15px;
+        border: none;
+        border-radius: 0;
+
+        .event-ticket {
+            margin-top: 7px;
+            li {
+                a {
+                    background: @brand-color;
+                    display: block;
+                    padding: 10px 20px;
+                    color: @white;
+                    border-radius: 5px;
+                    -webkit-transition: all 0.2 ease;
+                    transition: all 0.3s linear;
+                    &:hover {
+                        background: @brand-color2;
+                    }
+                }
+            }
+        }
+    }
+    .navbar-toggle {
+        .icon-bar {
+            background-color: @white;
+        }
+    }
+
+    /*New NAvbar*/
+
+    .menu-onscroll {
+        .bg-rgba(@black, 0.8);
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        border-bottom-color:@brand-color;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3s linear;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+        h2 a {
+            .font-size(35);
+            color: @white;
+            font-weight: 900;
+            span {
+                color: @brand-color2;
+            }
+        }
+    }
+
+    .cbx-nav {
+        background: none;
+        border: none;
+        box-shadow:none;
+    }
+
+    .cbx-nav-right {
+        li {
+            a {
+                .font-size(15);
+                color: @ash-light;
+                -webkit-transition: all 0.2 ease;
+                transition: all 0.4s linear;
+                text-transform: uppercase;
+                padding: 15px 5px;
+                margin: 0 5px;
+                &:hover, &:active, &:focus {
+                    color: @brand-color;
+                }
+            }
+        }
+        .active {
+            a {
+                color: @brand-color;
+                background: transparent;
+            }
+        }
+    }
+
+    .cbx-header-content {
+        margin-top: 14rem;
+        display: block;
+        h4 {
+            font-family: @font-family-content;
+            font-weight:600;
+            .font-size(60);
+            line-height: 7rem;
+            margin-bottom: 1.8rem;
+            letter-spacing: normal;
+        }
+        h1 {
+            font-weight: 900;
+            .font-size(76);
+            letter-spacing: 4px;
+        }
+
+
+        h5 {
+            font-weight: 600;
+            .font-size(34);
+            margin-top:1.5rem;
+        }
+        p {
+            font-family: @font-family-content;
+            font-weight: 400;
+            .font-size(16);
+            margin-top: 80px;
+            margin-bottom: 20px;
+        }
+
+    }
+
+    .cbx-countdown {
+        p {
+            font-family: @font-family-content;
+            font-weight: 400;
+            .font-size(16);
+            margin-top: 40px;
+        }
+    }
+
+}
+
+
+.lz-countdown-main {
+    margin: 8rem 0;
+}
+
+
+/***** HEADER END ****/

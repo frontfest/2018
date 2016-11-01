@@ -1,0 +1,254 @@
+
+html {
+    font-size: 62.5%;
+}/* Sets up the Base 10 stuff */
+
+body{
+    padding: 0;
+    margin: 0 auto;
+    font-family: @font-family-base;
+    font-weight: 400;
+    letter-spacing: 1px;
+    .font-size(@font-size-base);
+    line-height: normal;
+}
+
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: @headings-font-family;
+    font-weight: @headings-font-weight;
+    margin: 0;
+    padding: 0;
+}
+
+h1, .h1 {
+    .font-size(@cbx-font-size-h1);
+}
+h2, .h2 {
+    .font-size(@cbx-font-size-h2);
+}
+h3, .h3 {
+   .font-size(@cbx-font-size-h3);
+}
+h4, .h4 {
+    .font-size(@cbx-font-size-h4);
+}
+h5, .h5 {
+    .font-size(@cbx-font-size-h5);
+}
+h6, .h6 {
+    .font-size(@cbx-font-size-h6);
+}
+
+
+// Body text
+// -------------------------
+
+
+p, .cbx-content {
+    font-family: @font-family-content;
+    .font-size(@font-size-base);
+    .font-size(16);
+    line-height: 2.8rem;
+    letter-spacing: normal;
+}
+
+
+
+.lead {
+
+}
+
+
+// Lists
+// -------------------------
+
+// Unordered and Ordered lists
+ul,
+ol {
+    margin-top: 0;
+    ul,
+    ol {
+        margin-bottom: 0;
+    }
+}
+
+
+// Blockquotes
+blockquote {
+    border-left: none;
+    font-family: @font-family-content;
+    color: @ash-deep;
+    //background: @white-ash;
+    padding: 15px;
+    .font-size(17);
+    font-weight: 400;
+    font-style: italic;
+    i {
+        .font-size(20);
+        color: @black;
+    }
+    p,
+    ul,
+    ol {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    // Note: Deprecated small and .small as of v3.1.0
+    // Context: https://github.com/twbs/bootstrap/issues/11660
+    footer,
+    small,
+    .small {
+
+    }
+}
+
+
+// Opposite alignment of blockquote
+//
+// Heads up: `blockquote.pull-right` has been deprecated as of v3.1.0.
+.blockquote-reverse,
+blockquote.pull-right {
+
+}
+
+// Addresses
+address {
+
+}
+
+.cbx-container {
+    margin: 0 auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: @brand-light;
+    &:hover {
+        text-decoration: none;
+        color: @brand-dark;
+        outline: 0;
+    }
+    &:focus {
+        text-decoration: none;
+        color: @brand-dark;
+        outline: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+iframe {
+    width: 100%;
+}
+
+
+.span-color {
+    color: @brand-color;
+}
+
+.span-color2 {
+    color: @brand-color2;
+}
+
+.uppercase {
+    text-transform: uppercase
+}
+
+
+
+/*PLACEHOLDER ISSUE*/
+
+::-webkit-input-placeholder {
+    color: @brand-light ;
+}
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:@brand-light;
+}
+
+.cbx-inner {
+    padding: 12rem 0;
+}
+
+.cbx-heading {
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    h2, .h1 {
+        font-family: @headings-font-family;
+        font-weight: 700;
+        .font-size(45);
+        margin-bottom: 5rem;
+        color: @black;
+        z-index: 9;
+        .heading-serial {
+            position: relative;
+
+            .heading-serial-inner {
+                color: @brand-color;
+                font-size: 100px;
+                position: absolute;
+                z-index: 1;
+                opacity: .2;
+                left: -29px;
+                letter-spacing: -2px;
+                font-weight: 700;
+            }
+
+        }
+        .title {
+            position: relative;
+            z-index: 2;
+
+        }
+    }
+    p {
+        font-family: @font-family-content;
+        font-weight: 300;
+        .font-size(18);
+        line-height: 3.2rem;
+        color: @ash;
+        max-width: 65%;
+        margin: 0 auto;
+        text-transform: none;
+        letter-spacing: normal;
+    }
+}
+
+/*REGISTER BUTTON COMMON STYLE*/
+
+.cbx-regiter-common a, .cbx-regiter-common button {
+    font-family: @font-family-content;
+    text-transform: uppercase;
+    font-weight: 400;
+    .font-size(16);
+    background: none;
+    border: 1px solid @white;
+    border-radius: 30px 30px 30px 30px;
+    padding: 8px 35px;
+    color: @white;
+    -webkit-transition: all 0.2 ease;
+    transition: all 0.6s linear;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        background: @brand-color;
+    }
+}
+
+/*REGISTER BUTTON COMMON STYLE END*/
+
+
