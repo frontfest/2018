@@ -1,0 +1,32 @@
+{
+  "name": "front-fest-website",
+  "version": "1.0.0",
+  "description": "Website para el evento Front Fest 2017",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp serve",
+    "prod": "gulp"
+  },
+  "author": "Front Fest Development Team <frontfest@gmail.com> (https://github.com/frontfest)",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "~2.17.0",
+    "gulp": "~3.9.0",
+    "gulp-clean-css": "~2.0.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-less": "~3.2.0",
+    "gulp-rename": "~1.2.0",
+    "gulp-uglify": "~2.0.0",
+    "gulp-uncss": "~1.0.0",
+    "less-plugin-autoprefix": "~1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontfest/frontfest.github.io.git"
+  },
+  "keywords": [ "front", "fest", "frontend", "event", "madrid", "2017" ],
+  "bugs": {
+    "url": "https://github.com/frontfest/frontfest.github.io/issues"
+  },
+  "homepage": "https://github.com/frontfest/frontfest.github.io#readme"
+}
