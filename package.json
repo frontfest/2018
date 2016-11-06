@@ -24,7 +24,14 @@
     "type": "git",
     "url": "git+https://github.com/frontfest/frontfest.github.io.git"
   },
-  "keywords": [ "front", "fest", "frontend", "event", "madrid", "2017" ],
+  "keywords": [
+    "front",
+    "fest",
+    "frontend",
+    "event",
+    "madrid",
+    "2017"
+  ],
   "bugs": {
     "url": "https://github.com/frontfest/frontfest.github.io/issues"
   },

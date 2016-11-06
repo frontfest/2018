@@ -1,4 +1,3 @@
-
 jQuery(document).ready(function($){
 
     /*********Theme PAth*********/
@@ -12,146 +11,6 @@ jQuery(document).ready(function($){
     }
 
     /*********Theme Path End*********/
-
-
-    /********************************************
-     *** CONTACT FORM  Validation
-     *********************************************/
-    jQuery.validator.setDefaults({
-        debug: true,
-        success: "valid"
-    });
-
-
-    /********************************************
-     *** Email Subscription Validation And Ajax Submission
-     *********************************************/
-
-    var isEmail = function (email) {
-        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-        return regex.test(email);
-    }
-
-    $('form.subscribe-form').on( 'submit', function (evnt) {
-        evnt.preventDefault();
-        console.log('subs submit');
-        $form = $(this);
-        var emailInput = $( 'form.subscribe-form' ).find( 'input#subscribe' );
-        if (isEmail( emailInput.val() )) {
-            //console.log('ok');
-            $.ajax({
-                url: cbx_path + '/php/subscribe.php',
-                type: 'post',
-                data: { action: 'lz_subscription', 'email': emailInput.val().toLowerCase()},
-                beforeSubmit: function (argument) {
-                    // body...
-                },
-                success: function (ajaxResponse) {
-                    try {
-                        var ajaxResponse = $.parseJSON(ajaxResponse);
-                        if ( !ajaxResponse.error ) {
-                            emailInput.css('color', '#0f0');
-                        } else {
-                            emailInput.removeAttr( 'style' ); //css('color', '#f00');
-                            throw ajaxResponse.message;
-                        }
-                        alert( ajaxResponse.message );
-                    } catch (e) {
-                        //e.message;
-                        alert(e.message );
-                    }
-                },
-                error: function (argument) {
-                    // body...
-                }
-            });
-            $form[0].reset();
-        } else {
-            emailInput.css('color', '#f00');
-            return false;
-        }
-    });
-
-    $('form.subscribe-form input#subscribe').on('keyup', function (evnt) {
-        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-        this.style.color = (isEmail( $(this).val() )) ? '#f5832b': '#f00';
-    });
-
-    /********************************************
-     *** End Email Subscription Validation And Ajax Submission
-     *********************************************/
-
-
-
-    /********************************************
-     *** Start Contact Form Validation And Ajax Submission
-     *********************************************/
-
-    var $contactForm = $( 'form.cbx-contactform' );
-
-    $contactForm.validate({
-        submitHandler: function(form) {
-
-            //form.submit();
-            $form = $(form);
-            $.ajax({
-                url: cbx_path + '/php/contact.php',
-                type: 'post',
-                data: $form.serialize()+'&action=cbx_contact_us',
-                beforeSubmit: function (argument) {
-                    // body...
-                },
-                success: function (ajaxResponse) {
-                    try {
-                        var ajaxResponse = $.parseJSON(ajaxResponse);
-                        console.log(ajaxResponse);
-                        if (ajaxResponse.error) {
-                            //for field error
-                            $.each(ajaxResponse.error_field, function(i) {
-                                $('label#'+ajaxResponse.error_field[i]+'-error').text(ajaxResponse.message[ajaxResponse.error_field[i]]);
-                            });
-                        } else if(ajaxResponse.successmessage) {
-
-                            alert(ajaxResponse.successmessage);
-                            $form[0].reset();
-                        }
-                    } catch (e) {
-                        //consoe.log(e.message );
-                        //alert(ajaxResponse.message);
-                    }
-
-                    $form.reset;
-                },
-                error: function (argument) {
-                    // body...
-                    //console.log('error');
-                    alert('Sorry, Mail could not be sent. Please contact server admin.');
-                    $form.reset;
-                }
-            });
-
-            return false;
-
-        },
-
-        rules: {
-            'cbxname': {
-                required: true
-            },
-            'cbxemail': {
-                required: true
-            },
-
-            'cbxmessage': {
-                required: true
-            }
-        }
-    });
-
-    /********************************************
-     *** End Contact Form Validation And Ajax Submission
-     *********************************************/
-
 
 
     /********************************************
@@ -380,17 +239,16 @@ jQuery(document).ready(function($){
 
 
     //magnific popup
-    $('#cbx-memorisinner').magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
-        type: 'image',
-        gallery: {
-            enabled: true
-        },
-        image: {
-            titleSrc: 'title'
-        }
-        // other options
-    });
+    // $('#cbx-memorisinner').magnificPopup({
+    //     delegate: 'a',
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true
+    //     },
+    //     image: {
+    //         titleSrc: 'title'
+    //     }
+    // });
 
     /*FOR DEMO MODE*/
 

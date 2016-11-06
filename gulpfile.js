@@ -1,5 +1,6 @@
 const gulp        = require('gulp');
 
+const concat      = require('gulp-concat');
 const less        = require('gulp-less');
 const autoprefix  = require('less-plugin-autoprefix');
 const uglify      = require('gulp-uglify');
@@ -7,6 +8,20 @@ const uncss       = require('gulp-uncss');
 const cleanCss    = require('gulp-clean-css');
 const rename      = require('gulp-rename');
 const browserSync = require('browser-sync');
+
+gulp.task('javascript', () =>
+  gulp.src([
+      'scripts/modernizr-2.6.2.min.js',
+      'scripts/wow.js',
+      'scripts/jquery.smooth-scroll.js',
+      'scripts/kinetic-v5.1.0.js',
+      'scripts/jquery.final-countdown.js',
+      'scripts/cbscript.js',
+    ])
+    .pipe(concat('app.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('assets/js'))
+);
 
 gulp.task('less', () =>
   gulp.src('less/style-default.less')
@@ -31,13 +46,14 @@ gulp.task('less-dev', () =>
 );
 
 gulp.task('browser-sync', () => {
-  browserSync.init(['assets/css/**.css', '*.html'], {
+  browserSync.init(['assets/css/**.css', 'assets/js/**.js', '*.html'], {
     server: '.',
   });
 });
 
-gulp.task('serve', ['less-dev', 'browser-sync'], () => {
+gulp.task('serve', ['less-dev', 'javascript', 'browser-sync'], () => {
   gulp.watch('less/**/*.less', ['less-dev']);
+  gulp.watch('scripts/**/*.js', ['javascript']);
 });
 
-gulp.task('default', ['less']);
+gulp.task('default', ['less', 'javascripts']);
