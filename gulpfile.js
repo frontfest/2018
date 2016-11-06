@@ -31,7 +31,7 @@ gulp.task('less-dev', () =>
 );
 
 gulp.task('browser-sync', () => {
-  browserSync.init(['assets/css/**.css'], {
+  browserSync.init(['assets/css/**.css', '*.html'], {
     server: '.',
   });
 });
