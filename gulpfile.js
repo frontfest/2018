@@ -56,4 +56,4 @@ gulp.task('serve', ['less-dev', 'javascript', 'browser-sync'], () => {
   gulp.watch('scripts/**/*.js', ['javascript']);
 });
 
-gulp.task('default', ['less', 'javascripts']);
+gulp.task('default', ['less', 'javascript']);
