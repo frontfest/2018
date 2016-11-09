@@ -23,10 +23,10 @@
     <!-- twitter card ends from here -->
 
     <!-- facebook open graph starts from here, if you don't need then delete open graph related  -->
-    <meta property="og:title" content="Front Fest 2017" />
+    <meta property="og:title" content="Primer evento exclusivamente dedicado al mundo del desarrollo frontend en Madrid" />
     <meta property="og:url" content="http://frontfest.es" />
     <meta property="og:locale" content="es_ES" />
-    <meta property="og:site_name" content="Primer evento exclusivamente dedicado al mundo del desarrollo frontend en Madrid" />
+    <meta property="og:site_name" content="Front Fest 2017" />
     <meta property="og:description" content="Madrid, 18 de febrero de 2017"/>
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://frontfest.github.io/assets/img/logo.png" /> <!-- when you post this page url in facebook , this image will be shown -->
@@ -105,7 +105,7 @@
                                   </button>
 
                                   <div class="logo">
-                                      <h2><a href="{% block route %}{% endblock %}index.html" class="gotome"><img src="{% block route %}{% endblock %}assets/img/logo.png" /></a></h2>
+                                      <h2><a href="{% block route %}{% endblock %}" class="gotome"><img src="{% block route %}{% endblock %}assets/img/logo.png" /></a></h2>
                                   </div>
 
                               </div>
@@ -115,17 +115,17 @@
                               <!-- Collect the nav links, forms, and other content for toggling -->
                               <div class="collapse navbar-collapse" id="navbar-collapse">
                                   <ul class="nav navbar-nav cbx-nav-right xs-text-center">
-                                    <li><a href="http://frontfest.es#cbx-whoarewe" class="gotome">Qué es</a></li>
+                                    <li><a href="{% block route %}{% endblock %}#cbx-whoarewe" class="gotome">Qué es</a></li>
                                     <!-- <li><a href="#cbx-speakers" class="gotome">Ponentes</a></li> -->
                                     <!-- <li><a href="#cbx-venue" class="gotome">Vídeo</a></li> -->
                                     <!-- <li><a href="#cbx-schedule" class="gotome">Programa</a></li> -->
-                                    <li><a href="http://frontfest.es#cbx-travelinfo" class="gotome">Localización</a></li>
-                                    <li><a href="http://frontfest.es/codigo-conducta" class="gotome">Código de conducta</a></li>
+                                    <li><a href="{% block route %}{% endblock %}#cbx-travelinfo" class="gotome">Localización</a></li>
+                                    <li><a href="{% block route %}{% endblock %}/codigo-conducta" class="gotome">Código de conducta</a></li>
                                     <!-- <li><a href="#cbx-sponsored" class="gotome">Patrocinadores</a></li> -->
                                     <!-- <li><a href="#cbx-register" class="gotome">Register</a></li> -->
                                   </ul>
                                   <ul class="list-inline pull-right event-ticket">
-                                    <li><a href="http://frontfest.es#cbx-register">Call for papers</a></li>
+                                    <li><a href="{% block route %}{% endblock %}#cbx-register">Call for papers</a></li>
                                   </ul>
                               </div><!-- /.navbar-collapse -->
                           </div> <!--//.COl 9-->
