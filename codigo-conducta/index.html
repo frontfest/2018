@@ -33,16 +33,16 @@
     <!-- facebook open graph ends from here -->
 
     <!-- icons & favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="assets/img/manifest.json">
-    <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../assets/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="../assets/img/manifest.json">
+    <link rel="mask-icon" href="../assets/img/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="apple-mobile-web-app-title" content="Front Fest">
     <meta name="application-name" content="Front Fest">
     <meta name="theme-color" content="#ffffff">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />  <!-- this icon shows in browser toolbar -->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" /> <!-- this icon shows in browser toolbar -->
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.ico" />  <!-- this icon shows in browser toolbar -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" /> <!-- this icon shows in browser toolbar -->
 
     <!-- Fallback For IE 9 [ Media Query and html5 Shim] -->
     <!--[if lt IE 9]>
@@ -66,7 +66,7 @@
     <link href="https://fonts.googleapis.com/css?family=Exo:300,600,700,900" rel="stylesheet" type="text/css">
 
     <!-- CUSTOM  CSS  -->
-    <link id="cbx-style" rel="stylesheet" href="assets/css/style-default.min.css" media="all" />
+    <link id="cbx-style" rel="stylesheet" href="../assets/css/style-default.min.css" media="all" />
 
 </head>
 
@@ -81,53 +81,62 @@
 
 <div class="cbx-container">
 
+  <!--
+  HEADER
+  -->
+
+  <header>
+      <div id="cbx-header" class="cbx-header">
+
+          <div class="cbx-header-inner">
+
+              <nav id="menu-offscroll" class="navbar navbar-default cbx-navbar">
+                  <div class="container">
+                      <div class="row">
+
+                          <div class="col-sm-2">
+                              <!-- Brand and toggle get grouped for better mobile display -->
+                              <div class="navbar-header">
+                                  <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar-collapse">
+                                      <span class="sr-only">Toggle navigation</span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                  </button>
+
+                                  <div class="logo">
+                                      <h2><a href="../index.html" class="gotome"><img src="../assets/img/logo.png" /></a></h2>
+                                  </div>
+
+                              </div>
+                          </div> <!--//.COL 3-->
+
+                          <div class="col-sm-10">
+                              <!-- Collect the nav links, forms, and other content for toggling -->
+                              <div class="collapse navbar-collapse" id="navbar-collapse">
+                                  <ul class="nav navbar-nav cbx-nav-right xs-text-center">
+                                    <li><a href="../#cbx-whoarewe" class="gotome">Qué es</a></li>
+                                    <!-- <li><a href="#cbx-speakers" class="gotome">Ponentes</a></li> -->
+                                    <!-- <li><a href="#cbx-venue" class="gotome">Vídeo</a></li> -->
+                                    <!-- <li><a href="#cbx-schedule" class="gotome">Programa</a></li> -->
+                                    <li><a href="../index.html#cbx-travelinfo" class="gotome">Localización</a></li>
+                                    <li><a href="../codigo-conducta" class="gotome">Código de conducta</a></li>
+                                    <!-- <li><a href="#cbx-sponsored" class="gotome">Patrocinadores</a></li> -->
+                                    <!-- <li><a href="#cbx-register" class="gotome">Register</a></li> -->
+                                  </ul>
+                                  <ul class="list-inline pull-right event-ticket">
+                                    <li><a href="#cbx-register">Call for papers</a></li>
+                                  </ul>
+                              </div><!-- /.navbar-collapse -->
+                          </div> <!--//.COl 9-->
+
+                      </div><!--//.ROW-->
+                  </div><!-- /.container -->
+              </nav>
+
   
 
-    <header>
-        <div id="cbx-header" class="cbx-header">
 
-            <div class="cbx-header-inner">
-
-                <nav id="menu-offscroll" class="navbar navbar-default cbx-navbar">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-sm-2">
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar-collapse">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                    <div class="logo">
-                                      <h2><a href="index.html" class="gotome"><img src="assets/img/logo.png" /></a></h2>
-                                    </div>
-                                </div>
-                            </div> <!--//.COL 3-->
-
-                            <div class="col-sm-10">
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse" id="navbar-collapse">
-                                    <ul class="nav navbar-nav cbx-nav-right xs-text-center">
-                                      <li><a href="#cbx-whoarewe" class="gotome">Qué es</a></li>
-                                      <!-- <li><a href="#cbx-speakers" class="gotome">Ponentes</a></li> -->
-                                      <!-- <li><a href="#cbx-venue" class="gotome">Vídeo</a></li> -->
-                                      <!-- <li><a href="#cbx-schedule" class="gotome">Programa</a></li> -->
-                                      <li><a href="#cbx-travelinfo" class="gotome">Localización</a></li>
-                                      <!-- <li><a href="#cbx-sponsored" class="gotome">Patrocinadores</a></li> -->
-                                      <!-- <li><a href="#cbx-register" class="gotome">Register</a></li> -->
-                                    </ul>
-                                    <ul class="list-inline pull-right event-ticket">
-                                      <li><a href="#cbx-register">Call for papers</a></li>
-                                    </ul>
-                                </div><!-- /.navbar-collapse -->
-                            </div> <!--//.COl 9-->
-
-                        </div><!--//.ROW-->
-                    </div><!-- /.container -->
-                </nav>
             </div>
         </div> <!--//.CBX FOOTER-->
     </header>
@@ -280,14 +289,16 @@
     </section> <!--CONTACT END-->
 
 
-    <footer>
-        <div id="cbx-footer" class="cbx-footer">
-            <div class="cbx-footer-inner cbx-top-inner">
-                <div class="container">
-                    <div class="footer-content">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 text-center">
-                                <div class="footer-social">
+    
+
+  <footer>
+      <div id="cbx-footer" class="cbx-footer">
+          <div class="cbx-footer-inner cbx-top-inner">
+              <div class="container">
+                  <div class="footer-content">
+                      <div class="row">
+                          <div class="col-xs-12 col-sm-12 text-center">
+                              <div class="footer-social wow zoomIn" data-wow-delay=".5s">
                                   <ul class="list-unstyled list-inline text-center">
                                       <!-- <li><a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a></li> -->
                                       <li><a class="sp-tw" href="https://twitter.com/frontfest"><i class="fa fa-twitter"></i></a></li>
@@ -297,23 +308,21 @@
                                       <!-- <li><a class="sp-" href="#"><i class="fa fa-soundcloud"></i></a></li> -->
                                       <!-- <li><a class="sp-" href="#"><i class="fa fa-video-camera"></i></a></li> -->
                                   </ul>
-                                </div>
-                                <p class="cbx-copy-right uppercase wow fadeInUp" data-wow-delay=".6s"><span class="span-color2">Front Fest</span> &copy; 2017</p>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--//.CONTAINER-->
-                <div class="cbx-top text-center">
-                    <a href="#cbx-header" class="gotome">
-                        <i class="fa fa-angle-double-up"></i>
-                        <p>Top</p>
-                    </a>
-                </div>
-            </div> <!--//.cbx-inner-->
-        </div> <!--//.CBX FOOTER-->
-    </footer>
-    <!-- SITE CONTENT END -->
-    
+                              </div>
+                              <p class="cbx-copy-right uppercase wow fadeInUp" data-wow-delay=".6s"><span class="span-color2">Front Fest</span> &copy; 2017</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="cbx-top text-center">
+                  <a href="#cbx-header" class="gotome">
+                      <i class="fa fa-angle-double-up"></i>
+                      <p>Top</p>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </footer>
 
 </div>
 
@@ -321,7 +330,7 @@
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<script src="assets/js/app.min.js"></script>
+<script src="../assets/js/app.min.js"></script>
 
 <!-- if load google maps then load this api -->
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8yDM3bimcspf6Hvv3fAHPtPCeAN3qGGc"></script>

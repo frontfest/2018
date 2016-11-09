@@ -5,6 +5,7 @@ const less        = require('gulp-less');
 const autoprefix  = require('less-plugin-autoprefix');
 const uglify      = require('gulp-uglify');
 const cleanCss    = require('gulp-clean-css');
+const swig        = require('gulp-swig');
 const rename      = require('gulp-rename');
 const browserSync = require('browser-sync');
 
@@ -32,15 +33,26 @@ gulp.task('less', () =>
     .pipe(gulp.dest('assets/css'))
 );
 
+gulp.task('templates', () => {
+  gulp.src('templates/**/*.html')
+    .pipe(swig({
+      defaults: {
+        cache: false,
+      },
+    }))
+    .pipe(gulp.dest('.'));
+});
+
 gulp.task('browser-sync', () => {
-  browserSync.init(['assets/css/**.css', 'assets/js/**.js', '*.html'], {
+  browserSync.init(['assets/css/**.css', 'assets/js/**.js', '*.html', 'codigo-conducta/*.html'], {
     server: '.',
   });
 });
 
-gulp.task('serve', ['less', 'javascript', 'browser-sync'], () => {
+gulp.task('serve', ['templates', 'less', 'javascript', 'browser-sync'], () => {
   gulp.watch('less/**/*.less', ['less']);
   gulp.watch('scripts/**/*.js', ['javascript']);
+  gulp.watch('templates/**/*.html', ['templates']);
 });
 
-gulp.task('default', ['less', 'javascript']);
+gulp.task('default', ['templates', 'less', 'javascript']);
