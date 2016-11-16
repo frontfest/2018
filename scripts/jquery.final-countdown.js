@@ -27,9 +27,9 @@
         element = $(this);
 
         var defaults = $.extend({
-            start: '1362139200',
-            end: '1388461320',
-            now: '1387461319',
+            start: '1478736000',
+            end: '1487376000',
+            now: '1479254400',
             selectors: {
                 value_seconds: '.clock-seconds .val',
                 canvas_seconds: 'canvas_seconds',
@@ -41,19 +41,19 @@
                 canvas_days: 'canvas_days'
             },
             seconds: {
-                borderColor: '#8ac329',
+                borderColor: '#ffffff',
                 borderWidth: '6'
             },
             minutes: {
-                borderColor: '#dc4e41',
+                borderColor: '#6699ff',
                 borderWidth: '6'
             },
             hours: {
-                borderColor: '#ECEFCB',
+                borderColor: '#ffcc00',
                 borderWidth: '6'
             },
             days: {
-                borderColor: '#FF9900',
+                borderColor: '#ff3b3b',
                 borderWidth: '6'
             }
         }, options);
@@ -117,7 +117,7 @@
                 var y = seconds_width / 2;     
 
                 context.beginPath();
-                context.arc(x, y, radius, convertToDeg(0), convertToDeg(timer.seconds * 6));                                
+                context.arc(x, y, radius, convertToDeg(timer.seconds * 6), convertToDeg(0));                                
                 context.fillStrokeShape(this);
 
                 $(settings.selectors.value_seconds).html(60 - timer.seconds);
@@ -146,7 +146,7 @@
                 var y = minutes_width / 2;
 
                 context.beginPath();
-                context.arc(x, y, radius, convertToDeg(0), convertToDeg(timer.minutes * 6));
+                context.arc(x, y, radius, convertToDeg(timer.minutes * 6), convertToDeg(0));
                 context.fillStrokeShape(this);
 
                 $(settings.selectors.value_minutes).html(60 - timer.minutes);
@@ -176,7 +176,7 @@
                 var y = hours_width / 2;
 
                 context.beginPath();                
-                context.arc(x, y, radius, convertToDeg(0), convertToDeg(timer.hours * 360 / 24));
+                context.arc(x, y, radius, convertToDeg(timer.hours * 360 / 24), convertToDeg(0));
                 context.fillStrokeShape(this);
 
                 $(settings.selectors.value_hours).html(24 - timer.hours);
@@ -209,9 +209,9 @@
                 context.beginPath();
                 
                 if (timer.total == 0) {                    
-                    context.arc(x, y, radius, convertToDeg(0), convertToDeg(360));
+                    context.arc(x, y, radius, convertToDeg(360), convertToDeg(0));
                 } else {
-                    context.arc(x, y, radius, convertToDeg(0), convertToDeg((360 / timer.total) * (timer.total - timer.days)));
+                    context.arc(x, y, radius, convertToDeg((360 / timer.total) * (timer.total - timer.days)), convertToDeg(0));
                 }
                 context.fillStrokeShape(this);
 
