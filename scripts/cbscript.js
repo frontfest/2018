@@ -236,7 +236,20 @@ jQuery(document).ready(function($){
     });
     /*Menu Scroll end*/
 
+    /* Collapse navbar */
+    // bind click on navbar collapse element
+    $('#navbar-collapse li a').click(function(){
+        if (IsMobileView()){
+            // simulate click on navbar-toggle to collapse 
+            $('.navbar-toggle').trigger('click');
+        }
+    });
 
+    // function to know if we are on mobile view
+    function IsMobileView(){
+        // just check if bootstrap navbar-toggle button is visible
+        return $('.navbar-toggle').css('display') !== 'none';
+    }
 
     //magnific popup
     // $('#cbx-memorisinner').magnificPopup({
