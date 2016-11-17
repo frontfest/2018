@@ -227,7 +227,7 @@ jQuery(document).ready(function($){
 
     $(window).scroll(function() {
         windowpos = $(window).scrollTop();
-        if(windowpos - scrollmenu_pos.top > 50){
+        if(windowpos - scrollmenu_pos.top > 0){
             s.addClass("menu-onscroll");
         }
         else{
