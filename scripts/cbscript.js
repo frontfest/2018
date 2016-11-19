@@ -197,6 +197,17 @@ jQuery(document).ready(function($){
                 canvas_days: 'lz-circular-canvas_days'
             }
         });
+
+        // the final_countdown plugin doesn't provide a callback function, so we bind DOMNodeInserted event to catch changes
+        $('.lz-circular-clock-seconds .lz-circular-val, \
+           .lz-circular-clock-minutes .lz-circular-val, \
+           .lz-circular-clock-hours .lz-circular-val, \
+           .lz-circular-clock-days .lz-circular-val'           
+        ).on('DOMNodeInserted', function(event){
+            var value = $(this).text();
+            var $sibling = $(this).siblings();
+            $sibling.find('.pluralize').css('display', Math.abs(parseInt(value)) === 1 ? 'none' : 'inline')            
+        });
     }
 
     // -------------------------------------------------------------
