@@ -1,0 +1,48 @@
+#location {
+
+
+    .cbx-inner {
+        background: $ash-light;
+        //padding-bottom: 90px;
+    }
+
+
+
+
+  .single-hotleinfo {
+    margin-bottom: 40px;
+  }
+
+    .single-service {
+        margin-bottom: 40px;
+        h3 {
+            a {
+                color: $black;
+                font-weight: 600;
+                text-transform: uppercase;
+                @include font-size(20);
+                i {
+                    color: #ddd;
+                    margin-right: 10px;
+                    @include font-size(25);
+                }
+            }
+            margin-bottom: 15px;
+        }
+        p {
+            color: $black;
+            margin-top: 15px;
+            @include font-size(15);
+            line-height: 2.4rem;
+        }
+        .more-info {
+            color: $brand-color;
+            -webkit-transition: all 0.2 ease;
+            transition: all 0.9s linear;
+            &:hover {
+                color: $brand-color2;
+            }
+        }
+    }
+
+}

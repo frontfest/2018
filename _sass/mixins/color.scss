@@ -1,0 +1,12 @@
+@mixin hex-to-rgba($color, $alpha: 1) {
+  $hex-to-rgba-red: red($color);
+  $hex-to-rgba-green: green($color);
+  $hex-to-rgba-blue: blue($color);
+  $rgba: rgba($hex-to-rgba-red, $hex-to-rgba-green, $hex-to-rgba-blue, $alpha);
+}
+
+@mixin bg-rgba($color, $alpha: 1) {
+  background: rgba( red($color), green($color), blue($color), $alpha);
+}
+
+

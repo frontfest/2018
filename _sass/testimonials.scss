@@ -1,0 +1,124 @@
+#cbx-testimonials {
+  background: $ash-light;
+    .cbx-heading {
+
+    }
+
+    .cbx-single-people {
+        @include font-size(25);
+        p {
+            @include font-size(16);
+            line-height: 2.8rem;
+        }
+    }
+
+  i {
+    &:hover {
+      color: $brand-color;
+    }
+  }
+  .cbx-single-people {
+
+    p {
+        @include font-size(17);
+        font-style: normal;
+        line-height: 2.8rem;
+
+    }
+    small {
+      color: $brand-color;
+        @include font-size(16);
+        font-style: normal;
+    }
+  }
+
+  /* Carousel */
+
+  #quote-carousel {
+
+    &:hover {
+      .carousel-control {
+        display: block;
+      }
+    }
+    padding: 0 10px 0px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+  }
+  #quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+    display: none;
+    &:hover {
+
+    }
+  }
+  #quote-carousel .carousel-control.left {
+    left: -60px;
+  }
+  #quote-carousel .carousel-control.right {
+    right: -60px;
+  }
+  #quote-carousel .carousel-indicators {
+    right: 50%;
+    top: -67px;
+    bottom: 0px;
+    margin-right: -19px;
+  }
+  #quote-carousel .carousel-indicators li {
+    img {
+      border-radius: 50px;
+    }
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+  }
+  #quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 62px;
+    height: 62px;
+    border-radius: 100px;
+    border-color: $brand-color;
+    opacity: 1;
+    overflow: hidden;
+  }
+  .carousel-inner {
+    //min-height: 300px;
+  }
+  .item blockquote {
+    border-left: none;
+    margin: 0;
+  }
+  .item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    color: $brand-color;
+      font-size: 30px;
+      left: 19px;
+      margin-right: 0;
+      opacity: 0.4;
+      position: relative;
+      top: 7px;
+  }
+
+
+
+}
+
+#cbx-testimonials #quote-carousel .carousel-indicators .active {
+    height: 50px;
+    width: 50px;
+}

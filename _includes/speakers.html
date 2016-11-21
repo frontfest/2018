@@ -1,0 +1,70 @@
+<!--SPEAKERS START-->
+<section>
+  <div id="cbx-speakers" class="cbx-header">
+    <div class="cbx-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <div class="cbx-heading">
+              <h2 class="uppercase">
+                <span class="heading-serial">
+                  <span class="heading-serial-inner">
+                    01
+                  </span>
+                </span>
+                <span class="title">Speakers</span>
+              </h2>
+              <p class="uppercase">
+                We are a team of events and conferences dedicated to building remarkable events. Working with us gets you access to our full suite of conference and events.
+              </p>
+            </div>
+          </div>
+          <!--//main COL-->
+        </div>
+        <!--//main row-->
+
+        <div class="row">
+
+          {% for speaker in site.data.speakers %}
+
+          <div class="col-md-4 col-sm-6 col-xs-12 xs-text-center">
+            <div class="sp-single-are">
+              <div class="cbx-view cbx-view-inner">
+                <figure>
+                  <img src="http://placehold.it/480x480" />
+                  <figcaption class="cbx-figcaption">
+                    <div class="cbx-hover-link">
+                      <div class="cbx-vertical">
+                        <div class="cbx-effect-one sp-social-icon">
+                          <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
+                          <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
+                          <a class="sp-google" href="#"><i class="fa fa-google-plus"></i></a>
+                          <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
+                          <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                        <a href="speaker.html" class="info">More Info</a>
+                      </div>
+                    </div>
+                  </figcaption>
+
+                </figure>
+              </div>
+              <div class="cbx-name-info">
+                <h3><a href="speaker.html">{{ speaker.name }}</a></h3>
+                <h4>{{ speaker.description }}</h4>
+              </div>
+            </div>
+          </div>
+
+          {% endfor %}
+
+        </div>
+
+      </div>
+      <!--//container-->
+
+    </div>
+    <!--//cbx-inner-->
+  </div>
+</section>
+<!--SPEAKERS END-->
