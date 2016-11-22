@@ -3,7 +3,7 @@ html {
     font-size: 62.5%;
 }/* Sets up the Base 10 stuff */
 
-body{
+body {
     padding: 0;
     margin: 0 auto;
     font-family: $font-family-base;
@@ -254,6 +254,31 @@ iframe {
     &:hover {
         background: $brand-color;
     }
+}
+
+
+// ------------------
+
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.post-content {
+  margin-top: 20px;
+  font-family: "Open Sans", Arial, sans-serif;
+  ul {
+    margin-top: 20px;
+    li {
+      font-size: 16px;
+      letter-spacing: normal;
+      line-height: 3rem;
+    }
+  }
+
+  p {
+    margin-top: 20px;
+  }
 }
 
 /*REGISTER BUTTON COMMON STYLE END*/
