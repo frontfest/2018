@@ -21,6 +21,14 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(59, 89, 153, 0.9)', endColorstr='rgba(189, 8, 28, 0.9)',GradientType=0 ); /* IE6-9 */
         padding-bottom: 100px;
     }
+    
+    .cbx-header-inner-cod {
+        background: $white; /* W3C */
+        padding-bottom: 0;
+        .large-logo {
+          margin-top: 50px;
+        }
+    }
 
     /*MoDAL CUSTOM*/
 
@@ -154,6 +162,16 @@
             margin-bottom: 20px;
         }
 
+    }
+    
+    .cbx-header-content {
+      margin-top: 2rem;
+      display: block;
+      padding: 30px;
+      .large-logo {
+        width: 100%;
+        max-width: 500px;
+      }
     }
 
     .cbx-countdown {

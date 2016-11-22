@@ -2,9 +2,30 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<section>
+  <div id="whoarewe" class="cbx-header">
+    <div class="cbx-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <div class="cbx-heading">
+              <h2 class="uppercase">
+                <span class="title">{{ page.title }}</span>
+                <p class="meta">{{ page.date | date_to_string }}</p>
+              </h2>
+              <div class="post">
+                {{ content }}
+              </div>
+            </div>
+          </div>
+          <!--//main COL-->
+        </div>
+        <!--//main row-->
 
-<div class="post">
-  {{ content }}
-</div>
+      </div>
+      <!--//container-->
+
+    </div>
+    <!--//cbx-inner-->
+  </div>
+</section>

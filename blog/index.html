@@ -2,13 +2,30 @@
 layout: default
 title: Hank Quinlan's Blog
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.github.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-      <p>
-        {{ post.body }}
-      </p>
-	  {% endfor %}
-	</ul>
+<section>
+  <div id="whoarewe" class="cbx-header">
+    <div class="cbx-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <div class="cbx-heading">
+              <h2 class="uppercase">
+                <span class="title">{{ page.title }}</span>
+              </h2>
+              {% for post in site.posts %}
+                <p><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.github.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
+              {% endfor %}
+            </div>
+          </div>
+          <!--//main COL-->
+        </div>
+        <!--//main row-->
+
+      </div>
+      <!--//container-->
+
+    </div>
+    <!--//cbx-inner-->
+  </div>
+</section>
