@@ -65,6 +65,7 @@
         }
     }
     .navbar-toggle {
+      margin-top: 10px;
         .icon-bar {
             background-color: $white;
         }
@@ -73,12 +74,12 @@
     /*New NAvbar*/
 
     .menu-onscroll {
-        @include bg-rgba($black, 0.8);
+        @include bg-rgba($black, 0.9);
         position: fixed;
         width: 100%;
         z-index: 999;
-        padding-top: 10px;
-        padding-bottom: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
         border-bottom-color:$brand-color;
         -webkit-transition: all 0.3 ease;
         transition: all 0.3s linear;
@@ -103,6 +104,10 @@
         background: none;
         border: none;
         box-shadow:none;
+    }
+
+    .navbar-collapse {
+      margin-top: 0;
     }
 
     .cbx-nav-right {

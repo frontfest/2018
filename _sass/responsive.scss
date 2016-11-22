@@ -84,6 +84,9 @@
         font-size: 50%;
     }/* Sets up the Base 10 stuff */
     #cbx-header {
+      .navbar-collapse{
+        margin-top: 5px;
+      }
         .cbx-nav-right {
             li {
                 a {
@@ -308,6 +311,10 @@
     }
 
     #cbx-header {
+        .cbx-navbar {
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
         .cbx-nav-right {
             li {
                 a {
