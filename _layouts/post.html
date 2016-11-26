@@ -1,19 +1,34 @@
 ---
 layout: default
 ---
-
-<section>
-  <div class="cbx-inner">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h4>{{ page.date | date_to_string }}</h4>
-          <h1 class="margin-top">{{ page.title }}</h1>
-          <div class="post-content">
-            {{ content }}
-          </div>
-        </div>
-      </div>
-    </div>
+<header>
+  <h1 class="header-small">
+    <a href="{{ site.github.url }}/blog">
+      <img src="{{ site.github.url }}/assets/img/logo.png" class="header-image-small"> 
+    </a>
+  </h1>
+</header>
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">
+    <time>{{ page.date | date_to_string }}</time>
+  </span>
+  <div class="post-tag">
+    <ul>
+      {% for tag in page.tags %}
+      <li>
+        <a href="{{ site.github.url }}/tags#{{ tag }}" class="tag">
+          <span class="term">{{ tag }}</span>
+        </a>
+      </li>
+      {% unless forloop.last %}{% endunless %}
+      {% endfor %}
+    </ul>
   </div>
-</section>
+
+  {{ content }}
+
+</div>
+<nav class="header-nav">
+  <a href="{{ site.github.url }}/blog">⟵ volver al blog</a>
+</nav>
