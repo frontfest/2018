@@ -1,14 +1,15 @@
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+  <title>Front Fest Blog{% if page.title %} - {{ page.title }}{% endif %}</title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.github.url }}/assets/styles/blog.css" type="text/css">
 
   <!-- Font -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
 
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.github.url }}/feed.xml" />
 

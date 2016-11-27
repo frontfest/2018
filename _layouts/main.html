@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
   <title>{{ site.title }}</title>
-  <meta name="description" content="El primer evento exclusivamente dedicado al desarrollo front-end en Madrid">
+  <meta name="description" content="El primer evento exclusivamente dedicado al mundo del front-end en Madrid">
   <meta name="keywords" content="event, meetup, conference, front-end, frontend, html, css, javascript, web" />
 
   <!-- twitter card starts from here, if you don't need remove this section -->
@@ -17,13 +17,13 @@
   <meta name="twitter:site" content="@frontfest" />
   <meta name="twitter:creator" content="@frontfest" />
   <meta name="twitter:url" content="http://frontfest.es" />
-  <meta name="twitter:title" content="Front Fest - El primer evento exclusivamente dedicado al desarrollo front-end en Madrid" /> <!-- maximum 140 char -->
+  <meta name="twitter:title" content="El primer evento exclusivamente dedicado al mundo del front-end en Madrid" /> <!-- maximum 140 char -->
   <meta name="twitter:description" content="Madrid, 18 de febrero de 2017" /> <!-- maximum 140 char -->
   <meta name="twitter:image" content="http://frontfest.es/assets/img/logo-rrss.png" />  <!-- when you post this page url in twitter , this image will be shown -->
   <!-- twitter card ends from here -->
 
   <!-- facebook open graph starts from here, if you don't need then delete open graph related  -->
-  <meta property="og:title" content="El primer evento exclusivamente dedicado al desarrollo front-end en Madrid" />
+  <meta property="og:title" content="El primer evento exclusivamente dedicado al mundo del front-end en Madrid" />
   <meta property="og:url" content="http://frontfest.es" />
   <meta property="og:locale" content="es_ES" />
   <meta property="og:site_name" content="Front Fest" />
@@ -65,9 +65,6 @@
   <!-- CUSTOM  CSS  -->
 	<link id="cbx-style" rel="stylesheet" href="{{ site.github.url }}/assets/styles/main.css" media="all" />
 
-  <!-- MODERNIZER CSS  -->
-  <script src="{{ site.github.url }}/assets/vendor/modernizr-2.6.2.min.js"></script>
-
 </head>
 
 <body>
@@ -80,6 +77,9 @@
   {{ content }}
 </div>
 
+<!-- MODERNIZER  -->
+<script src="{{ site.github.url }}/assets/vendor/modernizr-2.6.2.min.js"></script>
+
 <!-- SITE  SCRIPT  -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -87,13 +87,10 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8yDM3bimcspf6Hvv3fAHPtPCeAN3qGGc"></script>
 
 <!-- WOW  JS -->
-<script src="{{ site.github.url }}/assets/js/wow.js"></script>
+<script src="{{ site.github.url }}/assets/js/wow.min.js"></script>
 
 <!--- for smooth scroll -->
-<script src="{{ site.github.url }}/assets/js/jquery.smooth-scroll.js"></script>
-
-<!-- adding magnific popup js library -->
-<!-- script src="{{ site.github.url }}/assets/vendor/maginificpopup/jquery.magnific-popup.min.js" type="text/javascript"></script -->
+<script src="{{ site.github.url }}/assets/js/jquery.smooth-scroll.min.js"></script>
 
 <!-- if use countdown plugin then use this plugin -->
 <script type="text/javascript" src="{{ site.github.url }}/assets/js/kinetic-v5.1.0.min.js"></script>
