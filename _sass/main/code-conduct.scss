@@ -1,0 +1,40 @@
+
+.code-conduct {
+  p {
+    margin: 2rem 0;
+  }
+  .staff-list {
+    a {
+      cursor: pointer;
+      color: black;
+      p {
+        transition: background-color 0.2s;
+        padding: 12px 0;
+        font-size: 16px;
+        margin: 0;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ddd;
+        &:hover {
+          background-color: lighten($brand-color2, 40%);
+        }
+      }
+      i {
+        font-size: 22px;
+        margin: 0 12px;
+        width: 36px;
+        line-height: 36px;
+        text-align: center;
+        border-radius: 3px;
+        &.fa-twitter {
+          background-color: #1da1f2;
+          color: white;
+        }
+        &.fa-github {
+          background-color: black;
+          color: white;
+        }
+      }
+    }
+  }
+}
