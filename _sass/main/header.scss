@@ -49,7 +49,7 @@
             margin-top: 7px;
             li {
                 a {
-                    font-weight: 700;
+                    font-weight: 600;
                     background: $brand-color;
                     display: block;
                     padding: 10px 20px;
@@ -90,7 +90,7 @@
         h2 a {
             @include font-size(35);
             color: $white;
-            font-weight: 900;
+            font-weight: 600;
             span {
                 color: $brand-color2;
             }
@@ -148,7 +148,7 @@
             letter-spacing: normal;
         }
         h1 {
-            font-weight: 900;
+            font-weight: 600;
             @include font-size(76);
             letter-spacing: 4px;
         }

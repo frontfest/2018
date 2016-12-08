@@ -4,10 +4,20 @@
     background: $black;
     padding-top: 9rem;
   }
+  
+  .cbx-heading {
+    margin-bottom: 3rem;
+    h2 .title {
+      color: $ash-light;
+    }
+    p {
+      color: $ash-light;
+    }
+  }
 
   h3 {
     font-family: $font-family-content;
-    font-weight: 700;
+    font-weight: 600;
     @include font-size(30);
     color: $white;
       margin-bottom: 15px;

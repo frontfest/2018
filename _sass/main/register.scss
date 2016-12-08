@@ -59,7 +59,7 @@
         display: block;
         font-family: open sans;
         font-size: 20px;
-        font-weight: 900;
+        font-weight: 600;
         padding: 10px 0;
         position: relative;
         text-transform: uppercase;
@@ -88,7 +88,7 @@
 
       h4 {
           @include font-size(30);
-          font-weight: 700;
+          font-weight: 600;
           color: $white;
           @include bg-rgba($white, .1);
           padding: 5px 0;
@@ -112,7 +112,7 @@
       .price {
           @include font-size(50);
           color: $white;
-          font-weight: 900;
+          font-weight: 600;
           -webkit-transition: all 0.2 ease;
           transition: all 0.3s linear;
           span {

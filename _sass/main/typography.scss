@@ -190,7 +190,7 @@ iframe {
     margin-bottom: 10rem;
     h2, .h1 {
         font-family: $headings-font-family;
-        font-weight: 700;
+        font-weight: 600;
         @include font-size(45);
         margin-bottom: 5rem;
         color: $black;
@@ -203,10 +203,10 @@ iframe {
                 font-size: 100px;
                 position: absolute;
                 z-index: 1;
-                opacity: .2;
+                opacity: .25;
                 left: -29px;
                 letter-spacing: -2px;
-                font-weight: 700;
+                font-weight: 600;
             }
 
         }

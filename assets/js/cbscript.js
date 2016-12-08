@@ -237,13 +237,4 @@ jQuery(document).ready(function($){
     });
     /*Menu Scroll end*/
 
-
-
-
-
-    /*FOR DEMO MODE*/
-
-    //disable this in productions
-    /*$( '.switcher-loader').SwitcherLoader();*/
-
 });//jQuery DOM READY END

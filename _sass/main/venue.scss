@@ -102,7 +102,7 @@
     text-transform: uppercase;
   }
   @include bg-rgba($brand-color, 0.7);
-  font-weight: 700;
+  font-weight: 600;
   padding: 16px 20px;
   @include font-size(20);
   h2 {

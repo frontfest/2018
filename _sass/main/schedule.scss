@@ -16,7 +16,7 @@
       color: $white;
       text-transform: uppercase;
       font-family: $font-family-content;
-      font-weight: 700;
+      font-weight: 600;
       @include font-size(16);
         padding: 1rem 3rem;
         -webkit-transition: all 0.2 ease;
@@ -76,7 +76,7 @@
 
     h3 {
       font-family: $font-family-content;
-      font-weight: 700;
+      font-weight: 600;
       @include font-size(25);
       padding-top: 0px;
       padding-bottom: 0px;
