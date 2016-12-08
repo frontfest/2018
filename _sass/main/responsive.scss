@@ -409,6 +409,7 @@
     }
     .navbar-default .navbar-toggle {
         border-color: $brand-color;
+        background-color: $brand-color;
     }
     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
         background-color: $brand-color;
@@ -516,6 +517,7 @@
 @media only screen and (max-width : 480px) {
 
     .cbx-heading .h1, .cbx-heading h2 {
+        line-height: normal;
         font-size: 28px;
     }
 
