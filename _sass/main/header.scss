@@ -112,6 +112,8 @@
 
     .cbx-nav-right {
         li {
+          font-weight: 600;
+
             a {
                 @include font-size(15);
                 color: $ash-light;

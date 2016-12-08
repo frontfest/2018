@@ -17,7 +17,7 @@ Nuestros esfuerzos actuales
 Conseguirlo no es fácil. Nuestra industria está mayoritariamente [representada por hombres][representacion] debido a un [montón de prejuicios][prejuicios]. Estamos haciendo todos los esfuerzos posibles por llegar hasta todos los rincones de nuestro sector y animar a ese gran talento oculto a compartir su conocimiento. Sabemos que no es fácil.
 
 - Hemos animado de manera individual a participar en el [Call For Papers][Call For Papers] a personas de la comunidad que representan diversidad.
-- Tenemos un [código de conducta][code of conduct]
+- Tenemos un [código de conducta][code of conduct].
 - El equipo de organización está compuesto por un 100% de personas concienciadas con la importancia que tiene la diversidad. **El 40% de estas personas son mujeres.**
 - Tendremos en cuenta muchísimas variables a la hora de elegir las charlas, entre ellas potenciar la diversidad como uno de los valores de las propuestas.
 - Hemos propuesto [temas para charlas][charlas] para dar cabida a temas que habitualmente se quedan fuera de eventos técnicos aunque en realidad sí interesan a la comunidad.
