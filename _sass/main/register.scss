@@ -94,19 +94,27 @@
           padding: 5px 0;
           -webkit-transition: all 0.2 ease;
           transition: all 0.3s linear;
+          small {
+            @include font-size(18); 
+            color: $white;
+            font-weight: 600;
+          }
       }
 
       .price-list {
           margin: 30px 0;
           li {
               font-family: $font-family-content;
-              padding: 10px 0;
+              padding: 10px 25px;
               color: #f9f9f9;
               letter-spacing: .05rem;
               @include font-size(16);
               font-weight: 600;
               -webkit-transition: all 0.2 ease;
               transition: all 0.3s linear;
+              strong {
+                color: $brand-color2;
+              }
           }
       }
       .price {
@@ -138,7 +146,7 @@
       }
 
       &:hover {
-          background: $brand-color2;
+          // background: $brand-color2;
           h4 {
               color: $white;
               @include bg-rgba($black, .2);
