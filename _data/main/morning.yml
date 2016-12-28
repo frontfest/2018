@@ -1,0 +1,87 @@
+- title: Máxima performance
+  pos: 1
+  speaker: Eduardo Sada
+  topic: navegadores, rendimiento, optimización
+  begin: "09.45"
+  end: "10.30"
+  icon: bolt
+  description:
+    - Nos meteremos en la sala de máquinas de los navegadores, aprendiendo cómo funcionan y cuáles
+      son las mejores técnicas para conseguir la máxima performance en nuestra web.
+      Pasaremos de 0 a 60 FPS entendiendo los procesos básicos de pintado y descubriremos al final cuál es el enemigo
+      número uno de la buena performance.
+    - ¿Qué es la buena performance? ¿Se puede medir una "sensación"? ¿Cómo puedo mejorar la performance en móviles? ¿Cuánto
+      impactan las microoptimizaciones? ¿Qué son los web workers? ¿Realmente ayudan?
+    - Cuando el mobile first ya no es una opción y se ha convertido en ley. Cuando la performance importa.
+
+
+- title: Animación avanzada con CSS en HTML y SVG para mejorar la UX
+  pos: 2
+  speaker: Ángel Corral
+  topic: animaciones, CSS, SVG, UX
+  begin: "10.35"
+  end: "11.20"
+  icon: css3
+  description:
+    - Las animaciones con CSS ayudan a mejorar los detalles de la interfaz y el feedback que le damos al usuario mediante
+      microinteracciones, tratándolas como elementos con un valor comunicativo en la transmisión de los contenidos, más allá de la mera
+      decoración o aporte visual.
+    - Aprenderemos cómo animar propiedades CSS teniendo en cuenta el rendimiento, animar introducciones de elementos en la vista, hacer 
+      animaciones secundarias persistentes, animar elementos SVG, hacer animaciones con steps, y por último veremos cómo preparar las
+      animaciones CSS dejando su aplicación a triggers gestionados por JS.
+    - Veremos ejemplos de animación aplicada a microinteracciones. CTAs, elementos de formulario, botones de modificación de vista, etc.
+
+
+- title: Coffee break
+
+
+- title: Let's code a game in JavaScript
+  pos: 3
+  speaker: Belén Albeza
+  topic: videojuegos, HTML5
+  begin: "11.45"
+  end: "12.30"
+  icon: gamepad
+  description:
+    - El desarrollo de videojuegos parece complicado, pero hoy en día tenemos herramientas que lo hacen más accesible, como
+      Phaser, un framework de videojuegos HTML5 de alto nivel, que nos permite programar videojuegos 2D de una manera muy rápida.
+    - En esta charla construiremos un videojuego paso a paso, con JavaScript y Phaser. Aprenderemos a cargar assets, crear sprites y
+      animarlos, usar un motor de físicas, reproducir audio, etc.
+
+
+- title: Accesibilidad web, ¿cómo hacer un front para todos?
+  pos: 4
+  speaker: Juanjo Montiel
+  topic: accesibilidad, perfiles de discapacidad
+  begin: "12.35"
+  end: "13.20"
+  icon: universal-access
+  description:
+    - Cuando desarrollamos un front para un sitio web, nuestro objetivo, entre otros, es que a quienes accedan les
+      encante la experiencia, y puedan conectarse de forma cómoda desde todo tipo de dispositivos. Pero ¿realmente estamos
+      consiguiendo llegar a todo el mundo?
+    - Muchos conocen el concepto de accesibilidad, o al menos han oído hablar de él. Sin embargo, muy pocos tienen los conocimientos
+      y la experiencia necesaria para aplicarla de forma efectiva. ¿Qué es? ¿Por qué es importante? ¿Cómo demonios se hace? ¿Afectará
+      negativamente a mi diseño? ¿Tendré que cobrarle al cliente el triple si quiere que la web sea accesible? ¿Puedo usar cualquier
+      tecnología?
+    - En esta charla os responderé a todas estas preguntas, y os proporcionaré las herramientas y las referencias necesarias no solo
+      para que podáis abordar de forma efectiva un desarrollo accesible, sino también para que podáis comprobar si lo habéis hecho bien,
+      utilizando las aplicaciones que usan los distintos perfiles de discapacidad.
+    - «El poder de la web reside en su universalidad. El acceso para todos independientemente de su discapacidad es un aspecto
+      fundamental» Tim Berners-Lee, director del W3C e inventor de la World Wide Web.
+    - ¿Os aventuráis a aprender cómo conseguirlo?
+    
+
+- title: Workflows sanos y funcionales entre equipos (UX, UI, Front)
+  pos: 5
+  speaker: Juan de la Cruz
+  topic: workflows, gestión de equipos
+  begin: "13.25"
+  end: "14.10"
+  icon: users
+  description:
+    - Los flujos de trabajo son una parte fundamental en el día a día de los equipos. Diseñadores y frontenders
+      suelen tener una relación cercana a la hora de afrontar tareas. Pero ¿cómo de sana y eficaz es esa relación? ¿Nos hacemos
+      entender bien?
+    - En esta charla se abordan casos de éxito y estrepitosos fracasos que nos aportarán experiencia para
+      conseguir juntos el mejor resultado (y no tirarse los trastos a la cabeza).

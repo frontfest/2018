@@ -47,32 +47,85 @@
     }
   }
 
+  .cbx-single-break {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: $brand-color2;
+    color: $black;
+    font-family: $font-family-content;
+    @include font-size(18);
+    font-weight: bold;
+  }
+
   .cbx-single-tab {
     margin-top: 1rem;
       @include bg-rgba($black, .8);
       -webkit-transition: all 0.2 ease;
       transition: all 0.3s linear;
 
+      .cbx-info-left {
+        padding: 4rem 0px 3rem 30px;
+        height: 100%;
+        @media (max-width: 767px) {
+          padding: 25px 15px 15px 15px;
+        }
+        p {
+          font-family: $font-family-content;
+          font-weight: 600;
+          text-align: center;
+          @include font-size(14);
+          color: #ddd;
+        }
+        .cbx-icon-topic {
+          @media (max-width: 767px) {
+            float: left;
+          }
+        }
+        .cbx-info-time {
+          font-size: 16px;
+          text-align: center;
+          @media (max-width: 767px) {
+            text-align: right;
+            @include font-size(22);
+          }
+        }
+        .cbx-info-topic {
+          @media (max-width: 767px) {
+            display: inline-block;
+            margin: 0;
+            padding: 8px 0 0 16px;
+          }
+        }
+        .cbx-info-icon {
+          margin: 20px 0 0 0;
+          i {
+            @include font-size(50);
+          }
+          @media (max-width: 767px) {
+            display: inline-block;
+            float: left;
+            text-align: left;
+            margin: 0;
+            i {
+              @include font-size(24);
+            }
+          }
+        }
+        text-transform: uppercase;
+        i {
+          color: $brand-color2;
+        }
+      }
+
       .cbx-info {
-          padding-top: 4rem;
-          padding-right: 15px;
+          @media (max-width: 767px) {
+            padding-top: 0;
+          }
+          padding: 4rem 30px 3rem 20px;
+          p {
+            padding-bottom: 6px;
+          }
       }
-
-    span {
-        padding-right: 20px;
-
-      a {
-        font-family: $font-family-content;
-        font-weight: 600;
-        @include font-size(14);
-        color: #ddd;
-
-      }
-      text-transform: uppercase;
-      i {
-        color: $brand-color2;
-      }
-    }
 
     h3 {
       font-family: $font-family-content;
@@ -80,7 +133,7 @@
       @include font-size(25);
       padding-top: 0px;
       padding-bottom: 0px;
-        color: $white;
+      color: $white;
     }
 
     h5 {

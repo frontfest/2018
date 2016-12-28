@@ -44,7 +44,7 @@
             line-height: 36px;
             margin-bottom: .5rem;
             -webkit-transition: all 0.2 ease;
-            transition: all 0.9s linear;
+            transition: all 0.3s linear;
 
         }
         .sp-tw {
@@ -62,9 +62,9 @@
                 background: #DC4E41;
             }
         }
-        .sp-insta {
+        .sp-gh {
             &:hover {
-                background: #3f729b;
+                background: #000000;
             }
         }
         .sp-in {
@@ -375,4 +375,3 @@
     -ms-transition-delay: 0.3s;
     transition-delay: 0.3s;
 }
-
