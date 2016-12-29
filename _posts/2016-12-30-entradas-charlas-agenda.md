@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Entradas, selección de charlas y agenda
+title: Cómo vendemos las entradas, elegimos las charlas y elaboramos la agenda, y por qué
 date: 2016-12-30
 description: Tras varios meses de preparativos, y tras publicar la agenda del evento y poner a la venta las primeras entradas, estamos entrando en la fase final de la organización de Front Fest. Queremos compartir todas las decisiones que hemos tomado hasta la fecha para ser lo más transparentes posible, así como comentar nuestras impresiones.
 ---
