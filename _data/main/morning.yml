@@ -1,7 +1,7 @@
 - title: Máxima performance
   pos: 1
   speaker: Eduardo Sada
-  topic: navegadores, rendimiento, optimización
+  topic: navegadores, rendimiento
   begin: "09.45"
   end: "10.30"
   icon: bolt
@@ -52,7 +52,7 @@
 - title: Accesibilidad web, ¿cómo hacer un front para todos?
   pos: 4
   speaker: Juanjo Montiel
-  topic: accesibilidad, perfiles de discapacidad
+  topic: accesibilidad
   begin: "12.35"
   end: "13.20"
   icon: universal-access
@@ -75,7 +75,7 @@
 - title: Workflows sanos y funcionales entre equipos (UX, UI, Front)
   pos: 5
   speaker: Juan de la Cruz
-  topic: workflows, gestión de equipos
+  topic: workflows, gestión
   begin: "13.25"
   end: "14.10"
   icon: users

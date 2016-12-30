@@ -18,7 +18,7 @@
 - title: Aplicaciones offline en un mundo online
   pos: 7
   speaker: Sergio Zamarrowski
-  topic: offline, bases de datos locales
+  topic: offline, databases locales
   begin: "16.20"
   end: "17.05"
   icon: database
@@ -54,7 +54,7 @@
 - title: Tecnología por el cambio climático
   pos: 9
   speaker: David Inga
-  topic: experiencias, visualización de datos
+  topic: experiencias, visualización
   begin: "18.15"
   end: "19.00"
   icon: area-chart
