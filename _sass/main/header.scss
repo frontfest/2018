@@ -188,5 +188,25 @@
     margin: 8rem 0;
 }
 
+.button-blog {
+  a {
+    padding: 15px;
+    background-color: lighten($blue, 15%);
+    border-radius: 5px;
+    transition: 0.2s;
+    &:hover {
+      background-color: lighten($blue, 10%);
+    }
+    .button-blog-title {
+      @include font-size(24);
+      color: $black;
+    }
+    .button-blog-image {
+      width: 28px;
+      margin-right: 5px;
+    }
+  }
+
+}
 
 /***** HEADER END ****/
