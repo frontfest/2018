@@ -1,4 +1,13 @@
-#cbx-speakers {
+#speakers {
+    .speaker-profile {
+        height: 800px;
+        @media only screen and (max-width : 992px) {
+          height: 732px;
+        }
+        @media only screen and (max-width : 767px) {
+          height: auto;        
+        }
+    }
     .cbx-inner {
         padding-bottom: 8rem;
     }
@@ -35,41 +44,53 @@
     .sp-social-icon {
 
         a {
+            font-size: 24px;
             color: $white;
             @include bg-rgba($brand-color, 0.7);
             height: 40px;
             width: 40px;
             border-radius: 4px;
             display: inline-block;
-            line-height: 36px;
+            line-height: 40px;
             margin-bottom: .5rem;
             -webkit-transition: all 0.2 ease;
-            transition: all 0.3s linear;
+            transition: all 0.2s linear;
 
         }
         .sp-tw {
+            background: #55acee;
             &:hover {
-                background: #55acee;
+              background: lighten(#55acee, 15%);
             }
         }
         .sp-fb {
+            background: #3b5999;
             &:hover {
-                background: #3b5999;
+              background: lighten(#3b5999, 15%);
             }
         }
-        .sp-google{
+        .sp-url{
+            background: #DC4E41;
             &:hover {
-                background: #DC4E41;
+              background: lighten(#DC4E41, 15%);
             }
         }
         .sp-gh {
+            background: #000000;
             &:hover {
-                background: #000000;
+              background: lighten(#111, 20%);
+            }
+        }
+        .sp-cp {
+            background: #000000;
+            &:hover {
+              background: lighten(#111, 20%);
             }
         }
         .sp-in {
+            background: #0077B5;
             &:hover {
-                background: #0077B5;
+              background: lighten(#0077B5, 15%);
             }
         }
     }

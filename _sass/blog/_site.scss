@@ -7,7 +7,7 @@
 html {
   font-family: $base-font;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.6;
 
   @media (min-width: 38em) {
@@ -44,7 +44,7 @@ body {
   }
 
   &-title {
-    font-weight: 300;
+    font-weight: 400;
     a {
       color: $base-color;
 
@@ -63,7 +63,7 @@ body {
   &-nav {
     a {
       color: lighten($base-color, 50);
-      font-weight: 300;
+      font-weight: 400;
       text-transform: lowercase;
       -webkit-transition: all .2s ease;
          -moz-transition: all .2s ease;

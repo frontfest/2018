@@ -12,7 +12,7 @@
     .countdown-text {
         .count-tilte {
             font-family: $font-family-content;
-            font-weight: 300;
+            font-weight: 400;
             @include font-size(30);
             color: $white;
             margin-bottom: 50px;
@@ -52,7 +52,7 @@
 .lz-circular-text {
     color: #fff;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 400;
     position: absolute;
     top: 40%;
     text-align: center;
@@ -105,7 +105,7 @@
     }
     .lz-circular-text .lz-circular-val {
         font-size: 25px;
-        font-weight: 300;
+        font-weight: 400;
         font-family: $font-family-content;;
     }
 

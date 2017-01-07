@@ -1,6 +1,6 @@
 <!--SPEAKERS START-->
 <section>
-  <div id="cbx-speakers" class="cbx-header">
+  <div id="speakers" class="cbx-header">
     <div class="cbx-inner">
       <div class="container">
         <div class="row">
@@ -29,36 +29,26 @@
 
           {% for speaker in site.data.main.speakers %}
 
-          <div class="col-md-4 col-sm-6 col-xs-12 xs-text-center">
+          <div class="col-md-4 col-sm-6 col-xs-12 xs-text-center speaker-profile">
             <div class="sp-single-are">
               <div class="cbx-view cbx-view-inner">
                 <figure>
-                  <img src="http://placehold.it/480x480" />
-                  <figcaption class="cbx-figcaption">
-                    <div class="cbx-hover-link">
-                      <div class="cbx-vertical">
-                        <div class="cbx-effect-one sp-social-icon">
-                          {% if speaker.url %}<a class="sp-gh" href="{{ speaker.url }}"><i class="fa fa-code"></i></a>{% endif %}
-                          {% if speaker.tw %}<a class="sp-tw" href="http://twitter.com/{{ speaker.tw }}"><i class="fa fa-twitter"></i></a>{% endif %}
-                          {% if speaker.gh %}<a class="sp-gh" href="http://github.com/{{ speaker.gh }}"><i class="fa fa-github"></i></a>{% endif %}
-                          {% if speaker.in %}<a class="sp-in" href="https://linkedin.com/in/{{ speaker.in }}"><i class="fa fa-linkedin"></i></a>{% endif %}
-                        </div>
-                        <!-- <a href="speaker.html" class="info">More Info</a> -->
-                      </div>
-                    </div>
-                  </figcaption>
-
+                  <img src="{{ site.github.url }}/assets/img/speakers/{{ speaker.pic }}" />
                 </figure>
               </div>
               <div class="cbx-name-info">
-                <h3><a href="speaker.html">{{ speaker.name }}</a></h3>
+                <h3 class="uppercase">{{ speaker.name }}</h3>
                 <div class="cbx-effect-one sp-social-icon">
-                  {% if speaker.url %}<a class="sp-gh" href="{{ speaker.url }}"><i class="fa fa-code"></i></a>{% endif %}
+                  {% if speaker.url %}<a class="sp-url" href="http://{{ speaker.url }}"><i class="fa fa-code"></i></a>{% endif %}
                   {% if speaker.tw %}<a class="sp-tw" href="http://twitter.com/{{ speaker.tw }}"><i class="fa fa-twitter"></i></a>{% endif %}
                   {% if speaker.gh %}<a class="sp-gh" href="http://github.com/{{ speaker.gh }}"><i class="fa fa-github"></i></a>{% endif %}
-                  {% if speaker.in %}<a class="sp-in" href="https://linkedin.com/in/{{ speaker.in }}"><i class="fa fa-linkedin"></i></a>{% endif %}
+                  {% if speaker.in %}<a class="sp-in" href="http://linkedin.com/in/{{ speaker.in }}"><i class="fa fa-linkedin"></i></a>{% endif %}
+                  {% if speaker.cp %}<a class="sp-cp" href="http://codepen.io/{{ speaker.cp }}"><i class="fa fa-codepen"></i></a>{% endif %}
                 </div>
-                <h4>{{ speaker.bio }}</h4>
+                <p>
+                  <strong>{{ speaker.position }}</strong>
+                </p>
+                <p class="speaker-description">{{ speaker.bio }}</p>
               </div>
             </div>
           </div>

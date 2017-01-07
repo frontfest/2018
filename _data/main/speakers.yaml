@@ -1,58 +1,76 @@
 - name: Eduardo Sada
-  bio: Programador Front-End Senior. Emprendedor tecnológico. Especialista Javascript en Kairos.
+  pic: EduardoSada.jpg
+  position: Especialista Javascript en Kairós Digital Solutions
+  bio: Eduardo es además evangelista de Polymer, con más de 12 años de experiencia en desarrollo Front-end. Hoy se dedica, según su madre, a
+    «hacer caritas y botoncitos» de manera profesional. Suele dar charlas en eventos de programación para no pagar la entrada.
   tw: aeroalquimia
   in: eduardosada
+  cp: eduardosada
 
 
 - name: Ángel Corral
-  bio: UX/Visual Designer & Interface Developer. Y profe en Fictizia. Creó su primera web el siglo pasado. Desde entonces todo ha
-    cambiado mucho (él también) pero esto le sigue gustando igual o más que el primer día.
+  pic: placeholder.jpg
+  position: UX/Visual Designer & Interface Developer. Profe en Fictizia
+  bio: Ángel creó su primera web el siglo pasado. Desde entonces todo ha cambiado mucho (él también) pero esto le sigue gustando igual
+    o más que el primer día.
   tw: ancoar
 
 
 - name: Belén Albeza
-  bio: Ingeniero y desarrolladora de videojuegos. Trabaja actualmente en el equipo de Developer Relations de Mozilla.
-    Le interesan los estándares web, la calidad del código, la accesibilidad y el desarrollo de videojuegos. Ha trabajado tanto en startups
-    como en grandes empresas, desarrollando videojuegos, prototipos de I+D, aplicaciones de móvil y páginas web.
-    Vive ahora en Barcelona y le gusta el heavy metal, participar en game jams, patinar y jugar al "Mass Effect".
+  pic: BelenAlbeza.jpg
+  position: Desarrolladora en el equipo de Developer Relations en Mozilla
+  bio: A Belén le interesan los estándares web, el código de calidad y el desarrollo de videojuegos. Ha trabajado tanto en startups
+    como en corporaciones, desarrollando aplicaciones, prototipos de I+D y videojuegos. Belén vive actualmente en Barcelona y le gusta
+    el heavy metal, participar en game jams y jugar al Mass Effect.
   tw: ladybenko
+  gh: belen-albeza
+  url: www.belenalbeza.com
 
 
 - name: Juanjo Montiel
-  bio: Desarrollador y consultor de accesibilidad, lleva más de diez años luchando y divirtiéndose con la tecnología. ¿Su
+  pic: placeholder.jpg
+  position: Senior Developer y consultor de accesibilidad en Pasiona Consulting 
+  bio: Lleva más de diez años luchando y divirtiéndose con la tecnología. ¿Su
     meta? Conseguir que la tecnología sea cada día más accesible... Y hacerse rico, claro. A veces se pregunta cuál de las dos es
     más difícil ;)
-    Actualmente trabaja en Pasiona Consulting como Senior Developer, especializado en tecnologías .NET. Le apasiona el desarrollo, y
-    realizar aplicaciones que mejoren el día a día de las personas que como él, tienen capacidades diferentes, y acceden a la información
-    de un modo distinto al de ese grupo utópico al que llamamos "normal".
+    Especializado en .NET, le apasiona el desarrollo y realizar aplicaciones que mejoren el día a día de las personas que
+    como él, tienen capacidades diferentes, y acceden a la información de un modo distinto al de ese grupo utópico al que llamamos "normal".
 
 
 - name: Juan de la Cruz
-  bio: UI & branding designer en Kaleidos. Trabaja con los desarrolladores para que sus proyectos luzcan tanto visualmente
-    como el código que hay detrás de ellos. Ilustrador y amante del open source, trata de apoyar la comunidad de diseñadores y front developers
-    con herramientas como uxbox.io.
+  pic: JuanDeLaCruz.jpg
+  position: UI & Branding Designer en Kaleidos
+  bio: Juan trabaja con los desarrolladores para que sus proyectos luzcan bien tanto visualmente como el código que hay detrás de ellos.
+    Ilustrador y open source lover, trata de apoyar la comunidad de diseñadores y developers front con herramientas como uxbox.io.
   tw: elhombretecla
   gh: elhombretecla
-  url: http://elhombretecla.com
+  url: elhombretecla.com
   
   
 - name: Javier Velasco
-  bio: Frontend Engineer en Audiense y autor de React Toolbox, uno de los UI kits más populares para React que ya usan internamente
-    pesos pesados como Netflix. Aunque ha trabajado con muchos otros lenguajes y herramientas, su pasión es Javascript y el frontend en general.
+  pic: JavierVelasco.jpg
+  position: Frontend Engineer en Audiense
+  bio: Javi es autor de React Toolbox, uno de los UI kits más populares para React que ya usan
+    internamente pesos pesados como Netflix. Aunque ha trabajado con muchos otros lenguajes y herramientas, su pasión es Javascript y el
+    Frontend en general.
   tw: javivelasco
   gh: javivelasco
 
 
 - name: Sergio Zamarrowski
-  bio: Manchego y de su padre y de su madre. Programa 24/7. Técnico Superior en Desarrollo de Aplicaciones Web.
-    Actualmente trabaja como desarrollador Frontend en una empresa de seguridad informática muy innovadora. Ha tenido la suerte
-    de desarrollarse profesionalmente en múltiples ámbitos pero (casi) siempre usando Javascript tanto en el lado del servidor como
-    en el cliente. Es experto en desarrollar proyectos personales sin ningún futuro pero de los cuales ha aprendido muchísimo.
+  pic: SergioZamarro.jpg
+  position: Desarrollador Frontend en una empresa de seguridad informática
+  bio: De su padre y de su madre. Programa 24/7. Técnico Superior en Desarrollo de Aplicaciones Web. Ha tenido la suerte de desarrollarse
+    profesionalmente en múltiples ámbitos pero (casi) siempre usando Javascript tanto en en lado del servidor como del cliente. Es experto
+    en desarrollar proyectos personales sin ningún futuro pero de los cuales ha aprendido muchísimo.
   gh: zamarrowski
   tw: zamarrowski
+  url: sergiozamarro.me
   
 
 - name: Ramón Guijarro
+  pic: RamonGuijarro.jpg
+  position: Frontend Developer
   bio: Desarrollador web creativo con interés por el diseño, la comunicación y los datos. Entusiasta de JavaScript y React.
     Orgulloso participante de h4ckademy.
   tw: soyguijarro
@@ -60,7 +78,8 @@
 
 
 - name: David Inga
-  bio: Tech lead y senior front-end developer en Vizzuality.
+  pic: placeholder.jpg
+  position: Tech lead y senior front-end developer en Vizzuality
   tw: davidsingal
   in: davidsingal
   
