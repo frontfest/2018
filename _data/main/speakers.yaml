@@ -79,8 +79,13 @@
 
 
 - name: David Inga
-  pic: placeholder.jpg
-  position: Tech lead y senior front-end developer en Vizzuality
+  pic: DavidInga.jpg
+  position: Tech Lead y Senior Developer en Vizzuality
+  bio: Apasionado de las tecnologías web desde los 16 años. Trabaja en Vizzuality desde 2010 contribuyendo en proyectos open source
+    relacionados con medio ambiente, justicia social, transparencia y gobierno abierto para organizaciones internacionales como las
+    Naciones Unidas, World Bank, Google o la NASA. En los últimos años se ha especializado en web-mapping y visualización de datos para
+    aplicaciones web.
   tw: davidsingal
+  gh: davidsingal
   in: davidsingal
   
