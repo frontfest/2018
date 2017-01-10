@@ -1,7 +1,6 @@
-#cbx-sponsored {
-
+#sponsored {
   .cbx-inner {
-    @include bg-rgba($white, 1);
+    @include bg-rgba($ash-light, 1);
       padding-bottom: 3rem;
   }
 
