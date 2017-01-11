@@ -32,9 +32,13 @@
   }
 
   .span-ash-light {
-    //color: $ash-light;
+    color: gray;
   }
-  .span-light, p {
-    //color: $brand-light;
+  .span-gold {
+    font-weight: 600;
+    color: darken(gold, 5%);
+  }
+  .span-light {
+    color: black;
   }
 }
