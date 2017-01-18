@@ -9,7 +9,7 @@
 
 
 - name: Ángel Corral
-  pic: placeholder.jpg
+  pic: AngelCorral.jpg
   position: UX/Visual Designer & Interface Developer. Profe en Fictizia
   bio: Ángel creó su primera web el siglo pasado. Desde entonces todo ha cambiado mucho (él también) pero esto le sigue gustando igual
     o más que el primer día.
@@ -28,8 +28,8 @@
 
 
 - name: Juanjo Montiel
-  pic: placeholder.jpg
-  position: Senior Developer y consultor de accesibilidad en Pasiona Consulting 
+  pic: JuanjoMontiel.jpg
+  position: Senior Developer y consultor de accesibilidad en Pasiona Consulting
   bio: Lleva más de diez años luchando y divirtiéndose con la tecnología. ¿Su
     meta? Conseguir que la tecnología sea cada día más accesible... Y hacerse rico, claro. A veces se pregunta cuál de las dos es
     más difícil ;)
@@ -45,8 +45,8 @@
   tw: elhombretecla
   gh: elhombretecla
   url: elhombretecla.com
-  
-  
+
+
 - name: Javier Velasco
   pic: JavierVelasco.jpg
   position: Frontend Engineer en Audiense
@@ -66,7 +66,7 @@
   gh: zamarrowski
   tw: zamarrowski
   url: sergiozamarro.me
-  
+
 
 - name: Ramón Guijarro
   pic: RamonGuijarro.jpg
@@ -88,4 +88,3 @@
   tw: davidsingal
   gh: davidsingal
   in: davidsingal
-  
