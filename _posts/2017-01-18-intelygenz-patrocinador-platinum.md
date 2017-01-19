@@ -3,7 +3,6 @@ layout: post
 title: Conoce a Intelygenz, nuestro patrocinador platinum
 date: 2017-01-18
 description: Intelygenz es una empresa de desarrollo de software que forma parte de nuestros patrocinios, en la categoría Platinum. ¿Quieres saber más sobre ellos? ¡Conócelos!.
-published: false
 
 ---
 ![Intelygenz] [logo]
