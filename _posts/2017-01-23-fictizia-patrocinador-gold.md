@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Conoce a Fictizia, uno de nuestros patrocinadores gold
-date: 2017-01-18
+date: 2017-01-25
 description: Fictizia es un centro de formación de especialistas en artes digitales y nuevas tecnologías. Sus programas de formación incluyen Másters, Cursos de especialización y Workshops sobre diseño interactivo y tecnologías de desarrollo de productos digitales, diseño gráfico, branding e Ilustración, producción 3D, VFX, animación CG y Motion Graphics.
 published: false
 
