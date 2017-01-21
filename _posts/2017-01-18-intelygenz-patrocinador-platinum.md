@@ -7,9 +7,9 @@ description: Intelygenz es una empresa de desarrollo de software que forma parte
 ---
 ![Intelygenz] [logo]
 
-**¿Quienes son Intelygenz?**
+**¿Quiénes son Intelygenz?**
 
-Desde 2002 en Intelygenz no han parado de desarrollar software en sus oficinas de Madrid, San Francisco y Austin (Texas), para crear diferentes soluciones y productos digitales: web, apps, machine learning, APIs, IoT, iLabs… ¡Son Product Makers! Desarrollan productos bajo demanda adaptándose a las necesidades de nuestros clientes aplicando metodologías ágiles como SCRUM y usando la automatización desde la primera línea de código (ATDD). Todo siempre con una cultura Full Stack.
+Desde 2002 en Intelygenz no han parado de desarrollar software en sus oficinas de Madrid, San Francisco y Austin (Texas), para crear diferentes soluciones y productos digitales: web, apps, machine learning, APIs, IoT, iLabs… ¡Son Product Makers! Desarrollan productos bajo demanda adaptándose a las necesidades de sus clientes aplicando metodologías ágiles como SCRUM y usando la automatización desde la primera línea de código (ATDD). Todo siempre con una cultura Full Stack.
 
 **¡Atención  Front Developers, iOS Developer, Full Stack Engineers,  Data Scientists,...!**
 
