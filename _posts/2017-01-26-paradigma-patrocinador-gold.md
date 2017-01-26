@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Conoce a Paradigma, patrocinador gold de Front Fest
-date: 2017-01-25
+date: 2017-01-26
 description: Paradigma es una no-company, donde el objetivo es conseguir que personas excepcionales trabajen juntas, y así hacer del mundo un lugar mejor. ¿Cómo lo hacen? Combinando tecnología, talento y metodología para reinventar el futuro digital de las grandes compañías. Para conseguirlo están siempre a la última en tecnología, metodología y negocio.
-published: false
+
 
 
 ---
