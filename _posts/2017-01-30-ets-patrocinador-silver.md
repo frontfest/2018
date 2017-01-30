@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Conoce a ETS, patrocinador silver     de Front Fest
-date: 2017-01-27
+date: 2017-01-30
 description: ETS Asset Management Factory. Raros, pero majos.
-published: false
+
 
 
 ---
