@@ -240,7 +240,7 @@
     #cbx-header {
         background: none;
         .cbx-header-inner {
-          background: linear-gradient(to right, rgba(42, 64, 112, 0.85) 0%, rgba(255, 225, 225, 0.85) 200%); /* W3C */
+          background: linear-gradient(to right, rgb(72, 94, 142) 0%, rgb(255, 225, 225) 200%); /* W3C */
         }
         .cbx-nav-right {
             li {
@@ -406,13 +406,14 @@
     }
     .navbar-toggle {
         margin-top: 0px;
+        margin-right: 0;
     }
     .navbar-default .navbar-toggle {
-        border-color: $brand-color;
-        background-color: $brand-color;
+        border: 0;
+        background-color: transparent;
     }
     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-        background-color: $brand-color;
+        background-color: transparent;
     }
     .lz-countdown-main {
         margin: 3rem 0 4rem;

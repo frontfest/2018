@@ -74,7 +74,7 @@
     /*New NAvbar*/
 
     .menu-onscroll {
-        @include bg-rgba($black, 0.9);
+        @include bg-rgba($black, 1);
         position: fixed;
         width: 100%;
         z-index: 999;
@@ -84,9 +84,13 @@
         -webkit-transition: all 0.3 ease;
         transition: all 0.3s linear;
         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+        .logo {
+          display: block
+        }
     }
 
     .logo {
+      display: none;
         h2 a {
             @include font-size(35);
             color: $white;
