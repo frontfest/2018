@@ -3,7 +3,7 @@ layout: post
 title: Conoce a Sngular, patrocinador silver de Front Fest
 date: 2017-02-01
 description: Fundada en 1995, Sngular es una empresa tecnológica con base en España, Estados Unidos y México, especializada en la gestión del Digital Success Cycle.
-published: false
+
 
 ---
 ![Sngular] [logo]
