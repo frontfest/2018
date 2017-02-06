@@ -3,12 +3,11 @@ layout: post
 title: Inseparables Conchas Codan y FrontFest
 date: 2017-02-06
 description: Esas dos redondas y tiernas mitades unidas por un delicioso chocolate siempre han sido **Inseparables** entre ellas e Inseprables de los amantes de la Tecnología.
-published: false
 
 ---
 ![Codan Logo] [logo]
 
-**¿Quienes son Sngular?**
+**¿Quienes son Codan?**
 
 En nuestro evento no podían faltar las míticas **Conchas Originales Codan.**
 
@@ -32,4 +31,4 @@ Recuerda participar en el **CONCURSO** el día del evento para ganar un **lote d
 
 
 
-[logo]:
+[logo]: http://frontfest.es/assets/img/sponsors/codan.jpg
