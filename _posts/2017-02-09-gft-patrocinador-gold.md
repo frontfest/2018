@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Conoce a nuestro patrocinador Gold: GFT
+title: Conoce a nuestro patrocinador Gold GFT
 date: 2017-02-09
 description: Es una compañía alemana, que está presente en doce países y que cuenta con un equipo global de más de 4.800 empleados.
 
@@ -23,8 +23,6 @@ Uno de sus pilares es la innovación, buscando siempre estar a la vanguardia de 
 Porque les gusta el código y les apasiona estar al tanto de las últimas tecnologías. Buscan soluciones innovadoras para los retos del mañana y disfrutan con estos eventos tanto como nosotros organizándolos.
 Si vas a verles por su stand te encontrarás con algunas caras bastante conocidas dentro de los meetups, porque les gusta compartir su conocimiento y experiencia con las comunidades. Pásate por su stand, acepta el reto que te proponen y conoce, más de cerca, a esta compañía alemana.
 En estos más de 15 años no han parado de crecer y siguen haciéndolo… ¡no te pierdas la oportunidad de conocer a su equipo y los proyectos en los que trabajan! Si te interesa, recuerda que siguen creciendo [(y aquí puedes echar un vistazo a sus ofertas de empleo).](http://www.gft.com/es/es/index/compania/empleo/ofertas-de-trabajo/)
-
-
 
 
 [logo]: http://frontfest.es/assets/img/sponsors/GFT.png
