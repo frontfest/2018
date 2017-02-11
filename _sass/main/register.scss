@@ -6,6 +6,10 @@
     background-size: cover;
     color: #ffffff;
 
+    .text-orange {
+      color: $brand-color2;
+    }
+
     .cbx-inner {
         @include bg-rgba($black, .8);
         padding-bottom: 9rem;
