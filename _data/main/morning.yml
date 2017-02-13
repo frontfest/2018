@@ -1,3 +1,9 @@
+- title: Acreditaciones
+  icon: id-card-o
+  begin: "09.00"
+  end: "09.30"
+
+
 - title: Máxima performance
   pos: 1
   speaker: Eduardo Sada
@@ -33,6 +39,9 @@
 
 
 - title: Coffee break
+  icon: coffee
+  begin: "11.20"
+  end: "11.45"
 
 
 - title: Let's code a game in JavaScript

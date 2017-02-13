@@ -76,7 +76,16 @@
                   {% else %}
                   
                   <div class="cbx-single-break">
-                    <i class="fa fa-coffee"></i> {{ slot.title }}                  
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                        {{ slot.begin }}
+                        <i class="fa fa-arrow-right"></i>
+                        {{ slot.end }}
+                      </div>
+                      <div class="col-xs-12 col-sm-9 col-md-9 col-lg-10">
+                        <i class="fa fa-{{ slot.icon }}"></i> {{ slot.title }}
+                      </div>
+                    </div>
                   </div>
                   
                   {% endif %}
@@ -127,7 +136,16 @@
                   {% else %}
                   
                   <div class="cbx-single-break">
-                    <i class="fa fa-coffee"></i> {{ slot.title }}                  
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                        {{ slot.begin }}
+                        <i class="fa fa-arrow-right"></i>
+                        {{ slot.end }}
+                      </div>
+                      <div class="col-xs-12 col-sm-9 col-md-9 col-lg-10">
+                        <i class="fa fa-{{ slot.icon }}"></i> {{ slot.title }}
+                      </div>
+                    </div>
                   </div>
                   
                   {% endif %}

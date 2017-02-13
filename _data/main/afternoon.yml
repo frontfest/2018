@@ -33,6 +33,9 @@
 
 
 - title: Coffee break
+  icon: coffee
+  begin: "17.05"
+  end: "17.25"
 
 
 - title: Cosas increíbles que puedes hacer con una web
