@@ -26,17 +26,55 @@
         <!--//main row-->
         <div class="row">
           <div class="col-xs-12">
+            
+            
+            
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              
+              {% for slot in site.data.main.morning %}
+              
+              {% if slot.pos %}
+              
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-{{slot.pos}}">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-{{slot.pos}}" aria-expanded="false" aria-controls="collapse-{{slot.pos}}">
+                      Collapsible Group Item #2
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse-{{slot.pos}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-{{slot.pos}}">
+                  <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              
+              {% else %}
+              
+              coffee
+              
+              {% endif %}
+              
+              {% endfor %}
+              
+            </div>
+            
+            
+            
+            
             <div class="cbx-tab">
-              <ul class="nav nav-pills text-center">
+              <!-- <ul class="nav nav-pills text-center">
                 <li class="active"><a data-toggle="pill" href="#morning-schedule">Mañana <br/></a></li>
                 <li><a data-toggle="pill" href="#afternoon-schedule">Tarde <br/></a></li>
-              </ul>
+              </ul> -->
 
               <div class="tab-content cbx-tab-content text-center">
+                
 
-                <div id="morning-schedule" class="tab-pane fade in active">
+                <div id="morning-schedule">
                   
-                  {% for slot in site.data.main.morning %}
+                  {% for slot in site.data.main.schedule %}
                   
                   {% if slot.pos %}
                   
@@ -92,66 +130,6 @@
                   
                   {% endfor %}
                   
-                </div>
-
-                <div id="afternoon-schedule" class="tab-pane fade">
-                  
-                  {% for slot in site.data.main.afternoon %}
-                  
-                  {% if slot.pos %}
-                  
-                  <div class="cbx-single-tab">
-                    <div class="row">
-                      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
-                        <div class="cbx-info-left">
-                          <h3 class="cbx-info-time">
-                            {{ slot.begin }}
-                            <i class="fa fa-arrow-right"></i>
-                            {{ slot.end }}
-                          </h3>
-                          <div class="cbx-icon-topic">
-                            <p class="cbx-info-icon"><i class="fa fa-{{ slot.icon }}"></i></p>
-                            <p class="cbx-info-topic">{{ slot.topic }}</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xs-12 col-sm-9 col-md-9 col-lg-10">
-                        <div class="cbx-info text-left">
-                          <h3 class="uppercase">{{ slot.title }}</h3>
-                          <h5 class="uppercase">Por <span class="span-color2">{{ slot.speaker }}</span></h5>
-                          {% for p in slot.description %}
-                          <p>{{ p }}</p>
-                          {% endfor %}
-                          <!--
-                          <a href="#">
-                            <p class="more"><span>Más info <i class="fa fa-long-arrow-right"></i></span></p>
-                          </a>
-                          -->
-                        </div>
-                        <!--//.single tab-->
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {% else %}
-                  
-                  <div class="cbx-single-break">
-                    <div class="row">
-                      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
-                        {{ slot.begin }}
-                        <i class="fa fa-arrow-right"></i>
-                        {{ slot.end }}
-                      </div>
-                      <div class="col-xs-12 col-sm-9 col-md-9 col-lg-10">
-                        <i class="fa fa-{{ slot.icon }}"></i> {{ slot.title }}
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {% endif %}
-                  
-                  {% endfor %}
-
                 </div>
 
               </div>
