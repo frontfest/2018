@@ -4,6 +4,12 @@
   end: "09.30"
 
 
+- title: Keynote
+  icon: comment
+  begin: "09.30"
+  end: "09.45"
+
+
 - title: Máxima performance
   pos: 1
   speaker: Eduardo Sada
