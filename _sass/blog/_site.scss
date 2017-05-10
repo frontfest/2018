@@ -15,6 +15,19 @@ html {
   }
 }
 
+.post {
+  table tr td:nth-child(2),
+  table tr td:nth-child(3),
+  table tr td:nth-child(4),
+  table tr td:nth-child(5), {
+    text-align: right;
+  }
+  table tbody:last-child tr td {
+    font-weight: bold;
+    background-color: #eee;
+  }
+}
+
 html,
 body {
   margin: 0;
@@ -112,7 +125,6 @@ body {
     margin-bottom: 2rem;
   }
 }
-
 
 /*--------------
   Post
