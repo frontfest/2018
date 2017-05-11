@@ -49,6 +49,6 @@ Como lo prometido es deuda, y aunque sea con algo de retraso, en este post quere
 |----------------------------------------|----------------|----------|----------|----------|
 | TOTAL                                  |       7.690,51 |          | 1.011,48 | 8.701,99 |
 
-Como podéis ver, la **diferencia entre ingresos y gastos (sin IVA) asciende a 2.852,30 euros**, que sería el superávit que arrojó el evento. Sin embargo, hemos llevado la contabilidad a través de una organización sin ánimo de lucro (APRODEWEB), lo cual nos impide legalmente repartir beneficios. En cualquier caso, no está en nuestro ánimo hacerlo, ya que organizamos la conferencia sencillamente porque teníamos ganas y nos hacía ilusión, y en beneficio de la comunidad.
+Como podéis ver, la **diferencia entre ingresos y gastos (sin IVA) asciende a 2.852,30 euros**.
 
 El hecho de no haber tenido unas cuentas más ajustadas se debió, como ya hemos comentado en anteriores posts, a que **nuestras previsiones fueron muy conservadoras**, ya que era la primera vez que organizábamos algo de esta envergadura, y no contábamos con la excepcional aceptación que tuvo por parte de los patrocinadores y de los asistentes, a los cuales agradecemos enormemente la confianza en nosotros. El dinero sobrante queda guardado a buen recaudo para que en la próxima edición podamos arriesgar un poco más y seguir haciendo Front Fest lo mejor posible.
