@@ -199,12 +199,12 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 
 .bg-photo {
-    background: url('../images/bg-photo.jpg') no-repeat center center transparent;
+    background: url('../images/photo-header.jpg') no-repeat center center transparent;
     background-size: cover;
     height: 100vh;
     display: flex;
