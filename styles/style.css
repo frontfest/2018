@@ -78,38 +78,75 @@ p {
   background-color: #cc9900;
 }
 
-.nav-collapse {
+.nav {
+  z-index: 1;
+  transition: 0.5s;
+  width: 100%;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: transparent;
+  height: 120px;
 }
 
-.nav-collapse ul {
+.nav.with-scroll {
+  background-color: white;
+  box-shadow: 1px 1px 2px 2px #ddd;
+  height: 70px;
+}
+
+.nav ul {
   margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin: 0 30px;
+  margin: 0 40px;
 }
 
-.nav-collapse li {
+.nav li {
   list-style-type: none;
   width: auto;
   margin: 0 15px;
-  line-height: 70px;
-  height: 70px;
+  height: 100%;
   display: flex;
   align-items: center;
 }
 
-.nav-collapse a {
-  color: black;
+.nav a {
+  transition: 0.5s;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.nav-collapse a:hover {
+.nav.with-scroll a {
+  color: black;
+}
+
+.nav svg path {
+  transition: 0.5s;
+  fill: white;
+}
+
+.nav.with-scroll svg path {
+  fill: black;
+}
+
+.nav li:hover svg path {
+  fill: #ffcc00;
+}
+
+.nav.with-scroll li:hover svg path {
+  fill: black;
+}
+
+.nav a:hover {
+  color: #ffcc00;
+}
+
+.nav.with-scroll a:hover {
   color: black;
   background-color: #ffcc00;
 }
@@ -127,7 +164,7 @@ p {
 
 @media screen and (min-width: 48em) {
   .header {
-    height: 700px;
+    height: 100vh;
   }
 }
 
@@ -197,7 +234,9 @@ p {
 	overflow:hidden;
 }
 
-.video-container iframe, .video-container object, .video-container embed {
+.video-container iframe,
+.video-container object,
+.video-container embed {
 	position:absolute;
 	top:0;
 	left:0;
