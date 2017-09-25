@@ -38,11 +38,19 @@ p {
 }
 
 .margin-right {
-  margin-right: 15px;
+  margin-right: 1.5rem;
 }
 
 .margin-left {
-  margin-left: 15px;
+  margin-left: 1.5rem;
+}
+
+.margin-top {
+  margin-top: 1.5rem;
+}
+
+.margin-bottom {
+  margin-bottom: 1.5rem;
 }
 
 .btn {
@@ -61,17 +69,19 @@ p {
   background-color: #cc9900;
 }
 
-.btn.red {
-  background-color: #ff3b3b;
+.btn.transparent {
+  border: 2px solid #000;
+  background-color: transparent;
 }
 
-.btn.red:hover {
-  background-color: #dd1919;
+.btn.transparent:hover {
+  background-color: #cc9900;
 }
 
 .nav-collapse {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .nav-collapse ul {
@@ -135,12 +145,12 @@ p {
 
 .header .block {
   margin-bottom: 80px;
-  padding: 20px;
+  margin-top: 80px;
 }
 
 .header .logo-svg {
-  width: 350px;
-  transform: perspective(300px) rotateX(7deg) rotateY(7deg);
+  width: 100%;
+  max-width: 350px;
 }
 
 .header .date {
@@ -174,12 +184,26 @@ p {
   height: 100%;
 }
 
-
 .footer {
   padding: 50px 0;
   background-color: #fff;
 }
 
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
 
 .list {
     flex-wrap: wrap;
