@@ -165,7 +165,7 @@ p {
   background-position: bottom center;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: auto;
   color: white;
 }
 
@@ -182,8 +182,8 @@ p {
 }
 
 .header .block {
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin-bottom: 40px;
+  margin-top: 140px;
 }
 
 .header .logo-svg {
@@ -249,8 +249,15 @@ p {
   .nav .nav-right {
     display: flex;
   }
+  .header {
+    height: 100vh;
+  }
   .header .overlay {
     background-color: rgba(0, 0, 0, 0.5);
+  }
+  .header .block {
+    margin-bottom: 80px;
+    margin-top: 80px;
   }
 }
 
