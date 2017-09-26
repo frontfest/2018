@@ -108,12 +108,6 @@ p {
   display: none;
 }
 
-@media screen and (min-width: 48em) {
-  .nav .nav-right {
-    display: flex;
-  }
-}
-
 .nav li {
   list-style-type: none;
   width: auto;
@@ -176,7 +170,7 @@ p {
 }
 
 .header .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.85);
   width: 100%;
   height: 100%;
 }
@@ -234,21 +228,30 @@ p {
 }
 
 .video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
 }
 
 .video-container iframe,
 .video-container object,
 .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (min-width: 48em) {
+  .nav .nav-right {
+    display: flex;
+  }
+  .header .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 
 .list {
