@@ -101,16 +101,28 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin: 0 40px;
+  margin: 0 2rem;
+}
+
+.nav .nav-right {
+  display: none;
+}
+
+@media screen and (min-width: 48em) {
+  .nav .nav-right {
+    display: flex;
+  }
 }
 
 .nav li {
   list-style-type: none;
   width: auto;
-  margin: 0 15px;
+  padding: 0 15px;
   height: 100%;
   display: flex;
   align-items: center;
+  max-width: 100px;
+  text-align: center;
 }
 
 .nav a {
@@ -119,6 +131,7 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  line-height: 1.25rem;
 }
 
 .nav.with-scroll a {
@@ -158,14 +171,8 @@ p {
   background-position: bottom center;
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 100vh;
   color: white;
-}
-
-@media screen and (min-width: 48em) {
-  .header {
-    height: 100vh;
-  }
 }
 
 .header .overlay {

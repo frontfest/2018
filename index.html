@@ -42,7 +42,7 @@
 
   <header>
     <nav class="nav" id="nav">
-      <ul>
+      <ul class="nav-left">
         <a href="/">
           <li>
             <img src="../images/frontfest-1.svg" />
@@ -70,10 +70,9 @@
           </li>
         </a>
       </ul>
-      <ul>
+      <ul class="nav-right">
         <a href="#cdc"><li>Código de conducta</li></a>
         <a href="http://frontfest.github.io/2017"><li>Edición 2017</li></a>
-
       </ul>
     </nav>
   </header>
@@ -146,51 +145,12 @@
 
   <footer class="footer">
     <div class="container container-fluid">
-      <p>Para cualquier consulta, duda o sugerencia, no dudes ponerte en contacto con nosotros por <a class="link" href="https://twitter.com/frontfest">DM
-        en Twitter</a> o en el email <a class="link" href="mailto:frontfest@gmail.com">frontfest@gmail.com</a></p>
+      <p>Para cualquier consulta, duda o sugerencia, no dudes en ponerte en contacto con nosotros mediante un <a class="link" href="https://twitter.com/frontfest">DM
+        en Twitter</a> o escribiendo un <a class="link" href="mailto:frontfest@gmail.com">email</a>.</p>
       <p><strong>Front Fest © 2018</strong></p>
     </div>
   </footer>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', '{{ site.google-analytics.id }}', 'auto');
-    ga('send', 'pageview');
-  </script>
-
-  <script>
-    var last_known_scroll_position = 0;
-    var ticking = false;
-
-    function setMenubarColor(scroll_pos) {
-      if (scroll_pos > 70) {
-        document.querySelector('#nav').classList.add('with-scroll');
-      } else {
-        document.querySelector('#nav').classList.remove('with-scroll');
-      }
-    }
-
-    window.addEventListener('scroll', function (e) {
-      last_known_scroll_position = window.scrollY;
-      if (!ticking) {
-        window.requestAnimationFrame(function () {
-          setMenubarColor(last_known_scroll_position);
-          ticking = false;
-        });
-      }
-      ticking = true;
-    });
-  </script>
-    <!-- <script src="scripts/responsive-nav.js"></script> -->
-    <!-- <script>
-      var nav = responsiveNav("#nav", {
-        navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
-      });
-    </script> -->
-
+  <script src="scripts/app.js"></script>
 </body>
 </html>
