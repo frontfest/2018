@@ -36,7 +36,10 @@ h3 {
 p {
   line-height: 1.4rem;
   margin-bottom: 1rem;
-  color: #444;
+}
+
+.max-width-200 {
+  max-width: 200px;
 }
 
 .black-text {
@@ -49,6 +52,10 @@ p {
 
 .flex {
   display: flex;
+}
+
+.width-full {
+  width: 100%;
 }
 
 .margin-right {
@@ -218,8 +225,29 @@ p {
   background-color: #ff3b3b;
 }
 
-.previous {
-  padding: 50px 0;
+.previous, .c4p {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.c4p .pic {
+  border: 4px solid white;
+}
+
+.c4p .pic:nth-child(1) {
+  margin-left: 6%;
+  width: 80%;
+}
+
+.c4p .pic:nth-child(2) {
+  margin-left: 12%;
+  width: 80%;
+  margin-top: -60px;
+}
+
+.c4p .pic:nth-child(3) {
+  margin-top: -70px;
+  width: 80%;
 }
 
 .coc {
@@ -253,7 +281,8 @@ p {
 
 .footer {
   padding: 50px 0;
-  background-color: #fff;
+  color: #ddd;
+  background-color: #222;
 }
 
 .footer a {
@@ -316,5 +345,5 @@ p {
 }
 
 .list li span {
-  color: black;
+  color: #555;
 }
