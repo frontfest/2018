@@ -225,7 +225,24 @@ p {
   background-color: #ff3b3b;
 }
 
-.previous, .c4p {
+.tickets {
+  background-color: #ec9d9d;
+  color: black;
+}
+
+.tickets .background-time {
+  background-image: url('../images/time-left.svg');
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.tickets .row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.previous,
+.c4p {
   padding-top: 50px;
   padding-bottom: 50px;
 }
