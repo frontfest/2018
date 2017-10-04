@@ -9,6 +9,10 @@
     font-weight: bold;
 }
 
+* {
+  box-sizing: border-box;
+} 
+
 body {
   font-family: 'OpenSans', Arial, sans-serif;
   font-size: 14px;
@@ -105,10 +109,16 @@ p {
   width: 100%;
   position: fixed;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   background-color: transparent;
-  height: 120px;
+  height: 70px;
+}
+
+.nav .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;  
 }
 
 .nav.with-scroll {
@@ -122,7 +132,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin: 0 2rem;
+  margin: 0 0.5rem;
 }
 
 .nav .nav-right {
@@ -132,12 +142,11 @@ p {
 .nav li {
   list-style-type: none;
   width: auto;
-  padding: 0 15px;
+  margin: 0 0.7rem;
   height: 100%;
   display: flex;
   align-items: center;
-  max-width: 100px;
-  text-align: center;
+  white-space: nowrap;
 }
 
 .nav a {
@@ -326,6 +335,12 @@ p {
 }
 
 @media screen and (min-width: 48em) {
+  .nav {
+    height: 120px;
+  }
+  .nav .wrapper {
+    margin: 0 2rem;
+  }
   .nav .nav-right {
     display: flex;
   }
