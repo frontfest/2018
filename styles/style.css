@@ -146,8 +146,7 @@ p {
   height: 100%;
   display: flex;
   align-items: center;
-  max-width: 100px;
-  text-align: center;
+  white-space: nowrap;
 }
 
 .nav a {
