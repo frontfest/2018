@@ -22,6 +22,10 @@ window.addEventListener('scroll', function (e) {
   ticking = true;
 });
 
+window.addEventListener('hashchange', function () {
+  window.scrollTo(window.scrollX, window.scrollY - 50);
+});
+
 /* Google Analytics */
 
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
