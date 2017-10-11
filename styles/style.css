@@ -104,7 +104,9 @@ p {
   font-weight: bold;
   transition: 0.25s;
   text-align: center;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  width: fit-content;
   cursor: pointer;
 }
 
@@ -217,12 +219,12 @@ p {
   background-position: bottom center;
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 100vh;
   color: white;
 }
 
 .header .overlay {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: #000;
   width: 100%;
   height: 100%;
 }
@@ -466,7 +468,7 @@ p {
 }
 
 .users img {
-  margin-right: 10px;
+  margin-right: 5px;
   width: 40px;
   display: absolute;
 }
@@ -480,9 +482,6 @@ p {
   }
   .nav .nav-right {
     display: flex;
-  }
-  .header {
-    height: 100vh;
   }
   .header .overlay {
     background-color: rgba(0, 0, 0, 0.5);
