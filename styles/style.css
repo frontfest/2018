@@ -124,6 +124,7 @@ p {
   text-align: center;
   display: flex;
   align-items: center;
+  width: -moz-fit-content;
   width: fit-content;
   cursor: pointer;
 }
