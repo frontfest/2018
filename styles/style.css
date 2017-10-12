@@ -38,6 +38,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 ul, li {
   margin: 0;
   padding: 0;
@@ -48,10 +52,12 @@ h1 {
   font-weight: bold;
   color: black;
   text-transform: uppercase;
+  margin: 0.6rem 0;
 }
 
 h2 {
   font-family: 'JosefinSans', Arial, sans-serif;
+  font-size: 1.6rem;
 }
 
 h3 {
@@ -62,6 +68,17 @@ h3 {
 p {
   line-height: 1.4rem;
   margin-bottom: 1rem;
+}
+
+.title-white {
+  font-size:  2rem;
+  color: #ccc;
+  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+}
+
+.subtitle-white {
+  margin: 0;  
+  color: white;  
 }
 
 .max-width-200 {
@@ -131,6 +148,7 @@ p {
 
 .btn:hover {
   background-color: #cc9900;
+  text-decoration: none;
 }
 
 .btn.transparent {
@@ -264,7 +282,6 @@ p {
 }
 
 .header .date {
-  text-transform: uppercase;
   font-size: 1.4rem;
   padding: 40px 0;
 }
@@ -475,10 +492,29 @@ p {
 
 .color-1 {
   color: #555;
+  margin: 0;
+}
+
+.handle-tw {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.handle-tw a {
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #b8a9a9;
 }
 
 .color-2 {
   color: #cc9900;
+  line-height: 1.2rem;
+  font-size: 1rem;
+}
+
+.web-icon {
+  width: 15px;
+  margin-left: 10px;
 }
 
 .users {
@@ -502,7 +538,7 @@ p {
     display: flex;
   }
   .header .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.80) 25%, rgba(0, 0, 0, 0.40) 100%);    
   }
 }
 
