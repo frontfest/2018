@@ -1,12 +1,23 @@
 @font-face {
-    font-family: 'OpenSans';
-    src: url('../fonts/OpenSans-Regular.woff2');
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.woff2');
 }
 
 @font-face {
-    font-family: 'OpenSans';
-    src: url('../fonts/OpenSans-Bold.woff2');
-    font-weight: bold;
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Bold.woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../fonts/JosefinSans-Regular.woff2');
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../fonts/JosefinSans-Bold.woff2');
+  font-weight: bold;
 }
 
 * {
@@ -33,7 +44,14 @@ ul, li {
 }
 
 h1 {
+  font-family: 'JosefinSans', Arial, sans-serif;
+  font-weight: bold;
   color: black;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'JosefinSans', Arial, sans-serif;
 }
 
 h3 {
