@@ -552,7 +552,7 @@ p {
     display: flex;
   }
   .header .overlay {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.80) 25%, rgba(0, 0, 0, 0.40) 100%);    
+    background: linear-gradient(to top right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 30%, rgba(0, 0, 0, 0) 100%);    
   }
 }
 
