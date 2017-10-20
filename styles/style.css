@@ -255,7 +255,7 @@ p {
 
 .header {
   background-color: black;
-  background-image: url('http://frontfest.es/2017/assets/img/event/08s.jpg');
+  background-image: url('../images/event/08s.jpg');
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -340,7 +340,7 @@ p {
 }
 
 .coc {
-  background-image: url('http://frontfest.es/2017/assets/img/event/03s.jpg');
+  background-image: url('../images/event/03s.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
