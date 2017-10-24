@@ -348,14 +348,14 @@ p {
 
 .coc .overlay {
   padding: 50px 0;
-  background-color: rgba(255, 204, 0, 0.85);
+  background-color: rgba(255, 204, 0, 0.9);
   width: 100%;
   height: 100%;
 }
 
 .coc2 .overlay {
   padding: 200px 0 50px 0;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.85);
   width: 100%;
   height: 100%;
 }
@@ -377,6 +377,11 @@ p {
 .footer a {
   color: #cc9900;
   font-weight: bold;
+}
+
+.footer .small-icon {
+  width: 20px;
+  margin-right: 8px;  
 }
 
 .video-container {
@@ -408,7 +413,7 @@ p {
   width: 100%;
   padding-left: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   list-style: disc;
 }
 
@@ -445,11 +450,11 @@ p {
   flex-wrap: wrap;
 }
 
-.bg-gray {
+.bg-salmon {
   background-color: #fed;
 }
 
-.bg-yellow {
+.bg-brown {
   background-color: #edc;
 }
 
@@ -517,11 +522,11 @@ p {
 .handle-tw a {
   font-weight: bold;
   font-size: 0.8rem;
-  color: #b8a9a9;
+  color: #888;
 }
 
 .color-2 {
-  color: #cc9900;
+  color: #ff3b3b;
   line-height: 1.2rem;
   font-size: 1rem;
 }
