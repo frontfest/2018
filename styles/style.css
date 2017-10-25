@@ -255,10 +255,6 @@ p {
 
 .header {
   background-color: black;
-  background-image: url('../images/event/08s.jpg');
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
   width: 100%;
   height: 100vh;
   color: white;
@@ -557,6 +553,12 @@ p {
   }
   .nav .nav-right {
     display: flex;
+  }
+  .header {
+    background-image: url('../images/event/08s.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
   }
   .header .overlay {
     background: linear-gradient(to top right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 30%, rgba(0, 0, 0, 0) 100%);    
