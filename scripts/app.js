@@ -15,6 +15,7 @@ window.addEventListener('scroll', function (e) {
   lastKnownScrollPosition = window.scrollY;
   if (!ticking) {
     window.requestAnimationFrame(function () {
+      document.querySelector('aside').classList.remove('open');   
       setMenubarColor(lastKnownScrollPosition);
       ticking = false;
     });
@@ -24,6 +25,16 @@ window.addEventListener('scroll', function (e) {
 
 window.addEventListener('hashchange', function () {
   window.scrollTo(window.scrollX, window.scrollY - 50);
+});
+
+document.querySelector('#toggleMenu').addEventListener('click', () => {
+  if (document.querySelector('aside').classList.contains('open')) {
+    document.querySelector('aside').classList.remove('open');
+    setMenubarColor(window.scrollY);  
+  } else {
+    document.querySelector('aside').classList.add('open');
+    document.querySelector('#nav').classList.remove('with-scroll');    
+  }
 });
 
 /* Google Analytics */

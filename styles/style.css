@@ -164,6 +164,45 @@ p {
   background-color: #cc9900;
 }
 
+aside {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background: #222;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .5s ease;
+}
+
+aside.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+aside .overlay-menu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+aside .overlay-menu li {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 10px 0;
+  list-style-type: none;
+  font-family: 'JosefinSans', Arial, sans-serif;  
+}
+
+aside .overlay-menu li a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav {
   z-index: 1;
   transition: 0.5s;
@@ -199,6 +238,14 @@ p {
 
 .nav .nav-right {
   display: none;
+}
+
+.nav .toggle-menu {
+  display: flex;
+}
+
+.nav .toggle-menu li {
+  margin-right: 15px;  
 }
 
 .nav li {
@@ -553,6 +600,9 @@ p {
   }
   .nav .nav-right {
     display: flex;
+  }
+  .nav .toggle-menu {
+    display: none;
   }
   .header {
     background-image: url('../images/event/08s.jpg');
