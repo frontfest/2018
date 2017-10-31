@@ -563,6 +563,9 @@ p {
   .header .overlay {
     background: linear-gradient(to top right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 30%, rgba(0, 0, 0, 0) 100%);    
   }
+  .header .block {
+    margin-bottom: 120px;
+  }
   .speaker {
     width: 180px;
     height: 180px;
