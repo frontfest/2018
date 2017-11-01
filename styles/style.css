@@ -166,7 +166,7 @@ aside {
 	height: 100vh;
 	top: 0;
 	left: 0;
-	background: linear-gradient(45deg, #edc, #444);
+	background: #cc9900;
 	opacity: 0;
 	visibility: hidden;
 	transition: all .5s ease;
@@ -243,6 +243,22 @@ aside .overlay-menu li a {
 
 .nav .toggle-menu li {
   margin-right: 15px;  
+}
+
+.nav .toggle-menu li#openMenu {
+  display: flex;
+}
+
+.nav .toggle-menu li#closeMenu {
+  display: none;
+}
+
+.nav .toggle-menu.open li#openMenu {
+  display: none;
+}
+
+.nav .toggle-menu.open li#closeMenu {
+  display: flex;
 }
 
 .nav li {

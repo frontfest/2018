@@ -4,6 +4,9 @@ var lastKnownScrollPosition = 0;
 var ticking = false;
 
 function setMenubarColor(scrollPos) {
+  document.querySelector('#toggleMenu').classList.remove('open');
+  document.querySelector('aside').classList.remove('open');
+  
   if (scrollPos > 70) {
     document.querySelector('#nav').classList.add('with-scroll');
   } else {
@@ -14,8 +17,7 @@ function setMenubarColor(scrollPos) {
 window.addEventListener('scroll', function (e) {
   lastKnownScrollPosition = window.scrollY;
   if (!ticking) {
-    window.requestAnimationFrame(function () {
-      document.querySelector('aside').classList.remove('open');   
+    window.requestAnimationFrame(function () { 
       setMenubarColor(lastKnownScrollPosition);
       ticking = false;
     });
@@ -27,12 +29,14 @@ window.addEventListener('hashchange', function () {
   window.scrollTo(window.scrollX, window.scrollY - 50);
 });
 
-document.querySelector('#toggleMenu').addEventListener('click', () => {
+document.querySelector('#toggleMenu').addEventListener('click', function() {
   if (document.querySelector('aside').classList.contains('open')) {
     document.querySelector('aside').classList.remove('open');
+    this.classList.remove('open');
     setMenubarColor(window.scrollY);  
   } else {
     document.querySelector('aside').classList.add('open');
+    this.classList.add('open');    
     document.querySelector('#nav').classList.remove('with-scroll');    
   }
 });
