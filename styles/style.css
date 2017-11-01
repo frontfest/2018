@@ -35,15 +35,11 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .bold {
   font-weight: bold;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 ul, li {
