@@ -444,10 +444,6 @@ aside .overlay-menu li a {
 .platinum-sponsors {
   display: flex;
 }
-.silver-sponsors {
-  display: flex;
-  justify-content: center;
-}
 
 .platinum-sponsors {
   display: flex;
@@ -456,12 +452,23 @@ aside .overlay-menu li a {
   justify-content: space-around;
 }
 
+.silver-sponsors,
+.collaborators-sponsors {
+  display: flex;
+  justify-content: center;
+}
+
 .sponsor-link {
   margin: 40px 0;
 }
 
 .paradigma-logo {
   width: 300px;
+}
+
+.intelygenz-logo {
+  width: 200px;
+  margin-top: -20px;
 }
 
 .footer {
