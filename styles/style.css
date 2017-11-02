@@ -444,11 +444,24 @@ aside .overlay-menu li a {
 .platinum-sponsors {
   display: flex;
 }
+.silver-sponsors {
+  display: flex;
+  justify-content: center;
+}
 
 .platinum-sponsors {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+.sponsor-link {
+  margin: 40px 0;
+}
+
+.paradigma-logo {
+  width: 300px;
 }
 
 .footer {
@@ -659,6 +672,15 @@ aside .overlay-menu li a {
   .speaker {
     width: 180px;
     height: 180px;
+  }
+  .platinum-sponsors {
+    flex-direction: row;
+  }
+  .sponsor-link {
+    margin: 0;
+  }
+  .paradigma-logo {
+    width: 370px;
   }
 }
 
