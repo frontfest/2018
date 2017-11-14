@@ -425,50 +425,58 @@ aside .overlay-menu li a {
   color: #ddd;
 }
 
+.sponsors h2 {
+  text-transform: uppercase;
+  font-size: 1.1rem;  
+}
+
 .sponsors .span-black {
   color: black;
 }
 
 .sponsors .span-platinum {
-  color: #c1beb7;
-}
-
-.sponsors .span-gold {
-  color: #e6c200;
-}
-
-.sponsors .span-silver {
   color: gray;
 }
 
-.platinum-sponsors {
-  display: flex;
+.sponsors .span-gold {
+  color: gold;
 }
 
-.platinum-sponsors {
+.sponsors .span-silver {
+  color: silver;
+}
+
+.sponsors a {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-}
-
-.silver-sponsors,
-.collaborators-sponsors {
-  display: flex;
   justify-content: center;
 }
 
-.sponsor-link {
-  margin: 40px 0;
+.platinum-sponsors,
+.silver-sponsors,
+.collaborators-sponsors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;  
 }
 
-.paradigma-logo {
+.platinum-sponsors a {
+  width: 350px;
+  padding: 20px 10px;
+}
+
+.platinum-sponsors img {
   width: 300px;
 }
 
-.intelygenz-logo {
+.silver-sponsors img {
   width: 200px;
-  margin-top: -20px;
+}
+
+.collaborators-sponsors img {
+  width: 100px;
 }
 
 .footer {
@@ -682,9 +690,6 @@ aside .overlay-menu li a {
   }
   .platinum-sponsors {
     flex-direction: row;
-  }
-  .sponsor-link {
-    margin: 0;
   }
   .paradigma-logo {
     width: 370px;
