@@ -454,6 +454,7 @@ aside .overlay-menu li a {
 
 .platinum-sponsors,
 .silver-sponsors,
+.sponsors-in-kind,
 .collaborators-sponsors {
   display: flex;
   flex-direction: row;
@@ -471,6 +472,7 @@ aside .overlay-menu li a {
   width: 300px;
 }
 
+.sponsors-in-kind img,
 .silver-sponsors img {
   width: 200px;
 }
