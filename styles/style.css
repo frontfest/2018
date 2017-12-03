@@ -393,7 +393,7 @@ aside .overlay-menu li a {
 
 .tickets .ticket {
   padding: 25px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .tickets .ticket-icon {
