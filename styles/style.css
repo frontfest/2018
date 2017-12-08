@@ -700,6 +700,11 @@ aside .overlay-menu li a {
   display: absolute;
 }
 
+#mapid {
+  width: 100%;
+  height: 400px;
+}
+
 @media screen and (min-width: 48rem) {
   .nav {
     height: 120px;
