@@ -202,7 +202,7 @@ aside .overlay-menu li a {
 }
 
 .nav {
-  z-index: 1;
+  z-index: 1001;
   transition: 0.5s;
   width: 100%;
   position: fixed;
