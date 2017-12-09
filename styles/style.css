@@ -175,6 +175,7 @@ aside {
 aside.open {
 	opacity: 1;
 	visibility: visible;
+  z-index: 1000;
 }
 
 aside .overlay-menu {
@@ -703,6 +704,7 @@ aside .overlay-menu li a {
 #mapid {
   width: 100%;
   height: 400px;
+  z-index: 0;
 }
 
 @media screen and (min-width: 48rem) {
