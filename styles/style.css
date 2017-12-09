@@ -71,12 +71,14 @@ p {
 }
 
 .title-white {
-  font-size:  2rem;
+  font-size: 2.4rem;
   color: #ccc;
-  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+  font-family: 'JosefinSans';
 }
 
 .subtitle-white {
+  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
   margin: 0;
   color: white;
 }
@@ -439,6 +441,7 @@ aside .overlay-menu li a {
   background-color: rgba(255, 204, 0, 0.9);
   width: 100%;
   height: 100%;
+  text-shadow: 1px 1px 3px rgba(255, 255, 100, 0.8);
 }
 
 .coc2 .overlay {
@@ -665,6 +668,8 @@ aside .overlay-menu li a {
 }
 
 .color-1 {
+  font-family: 'OpenSans';
+  font-size: 1.3rem;
   color: #555;
   margin: 0;
 }
