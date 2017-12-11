@@ -462,6 +462,7 @@ aside .overlay-menu li a {
 .sponsors h2 {
   text-transform: uppercase;
   font-size: 1.1rem;
+  margin-top: 40px;
 }
 
 .sponsors .span-black {
@@ -496,19 +497,12 @@ aside .overlay-menu li a {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-}
-
-.platinum-sponsors a {
-  width: 350px;
-  padding: 20px 10px;
+  border: 1px solid lightgray;
+  padding: 30px 15px;
 }
 
 .platinum-sponsors img {
   width: 300px;
-}
-
-.gold-sponsors a {
-  padding: 20px 10px;
 }
 
 .gold-sponsors img {
@@ -595,8 +589,8 @@ aside .overlay-menu li a {
 }
 
 .section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 80px;
 }
 
 .section-small {
