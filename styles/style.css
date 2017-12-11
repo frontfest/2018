@@ -364,7 +364,8 @@ aside .overlay-menu li a {
 
 .tickets .background-time {
   background-image: url('../images/ticket.svg');
-  background-position: center right;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -395,6 +396,8 @@ aside .overlay-menu li a {
 }
 
 .tickets .ticket {
+  margin-top: 15px;
+  margin-bottom: 10px;
   padding: 25px;
   background-color: rgba(255, 255, 255, 0.75);
 }
@@ -481,6 +484,10 @@ aside .overlay-menu li a {
   color: silver;
 }
 
+.sponsors img {
+  margin: 20px;
+}
+
 .sponsors a {
   display: flex;
   align-items: center;
@@ -498,7 +505,7 @@ aside .overlay-menu li a {
   justify-content: space-around;
   flex-wrap: wrap;
   border: 1px solid lightgray;
-  padding: 30px 15px;
+  padding: 10px;
 }
 
 .platinum-sponsors img {
@@ -506,7 +513,7 @@ aside .overlay-menu li a {
 }
 
 .gold-sponsors img {
-  width: 260px;
+  width: 250px;
 }
 
 .sponsors-in-kind img,
