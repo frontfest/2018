@@ -65,7 +65,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 
 L.marker([40.3478149, -3.6963])
   .addTo(mymap)
-  .bindPopup('<strong>La N@ve</strong><br />Calle Cifuentes, 5, 28021 Madrid')
+  .bindPopup('<img style="width: 100px" src="../images/lanave-logo.png">')
   .openPopup();
 
 var cercaniasIcon = L.icon({

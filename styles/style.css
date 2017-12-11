@@ -30,6 +30,11 @@ body {
   color: #555;
 }
 
+button {
+  font-family: 'OpenSans', Arial, sans-serif;
+  font-size: 1rem;
+}
+
 .p-08 {
   font-size: 0.8rem;
 }
@@ -50,7 +55,7 @@ ul, li {
 h1 {
   font-family: 'JosefinSans', Arial, sans-serif;
   font-weight: bold;
-  color: black;
+  color: #222;
   text-transform: uppercase;
   margin: 1rem 0 0.6rem 0;
 }
@@ -88,11 +93,15 @@ p {
 }
 
 .black-text {
-  color: black;
+  color: #222;
 }
 
 .white-text {
   color: white;
+}
+
+.large-text {
+  font-size: 1.1rem;
 }
 
 .flex {
@@ -137,7 +146,7 @@ p {
   text-decoration: none;
   background-color: #ffcc00;
   padding: 12px 28px;
-  color: black;
+  color: #222;
   font-weight: bold;
   transition: 0.25s;
   text-align: center;
@@ -160,6 +169,15 @@ p {
 
 .btn.transparent:hover {
   background-color: #cc9900;
+}
+
+.btn.disabled {
+  cursor: not-allowed;
+}
+
+.btn.disabled:hover,
+.btn.transparent.disabled:hover {
+  background-color: transparent;
 }
 
 aside {
@@ -288,7 +306,7 @@ aside .overlay-menu li a {
 }
 
 .nav.with-scroll a {
-  color: black;
+  color: #222;
 }
 
 .nav svg path {
@@ -313,12 +331,12 @@ aside .overlay-menu li a {
 }
 
 .nav.with-scroll a:hover {
-  color: black;
+  color: #222;
   background-color: #ffcc00;
 }
 
 .header {
-  background-color: black;
+  background-color: #222;
   width: 100%;
   height: 100vh;
   color: white;
@@ -359,7 +377,7 @@ aside .overlay-menu li a {
 
 .tickets {
   background-color: #ec9d9d;
-  color: black;
+  color: #222;
 }
 
 .tickets .background-time {
@@ -469,7 +487,7 @@ aside .overlay-menu li a {
 }
 
 .sponsors .span-black {
-  color: black;
+  color: #222;
 }
 
 .sponsors .span-platinum {
@@ -609,8 +627,23 @@ aside .overlay-menu li a {
   flex-wrap: wrap;
 }
 
+.width-200 {
+  width: 200px;
+}
+
 .bg-salmon {
   background-color: #fed;
+}
+
+.bg-salmon-2 {
+  background-color: #e8e0d8;
+  padding-bottom: 40px;
+}
+
+.bg-salmon-2-dark {
+  height: 100%;
+  padding: 5px 25px;
+  background-color: #f8f0e8;
 }
 
 .bg-brown {
