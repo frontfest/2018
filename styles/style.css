@@ -632,7 +632,14 @@ aside .overlay-menu li a {
 }
 
 .bg-salmon {
+  color: #222;
   background-color: #fed;
+}
+
+.bg-salmon h2 {
+  margin: 0;
+  font-family: 'OpenSans';
+  font-size: 1.4rem;
 }
 
 .bg-salmon-2 {
@@ -670,8 +677,8 @@ aside .overlay-menu li a {
   padding-right: 20px;
 }
 
-.margin-top-20 {
-  margin-top: 20px;
+.margin-top-25 {
+  margin-top: 2.5rem;
 }
 
 .vertical-bars {
@@ -704,7 +711,7 @@ aside .overlay-menu li a {
 .color-1 {
   font-family: 'OpenSans';
   font-size: 1.3rem;
-  color: #555;
+  color: #111;
   margin: 0;
 }
 
@@ -716,7 +723,7 @@ aside .overlay-menu li a {
 .handle-tw a {
   font-weight: bold;
   font-size: 0.8rem;
-  color: #888;
+  color: #ff3b3b;
 }
 
 .color-2 {
@@ -738,6 +745,10 @@ aside .overlay-menu li a {
   margin-right: 5px;
   width: 40px;
   display: absolute;
+}
+
+.sn-icon {
+  height: 40px;
 }
 
 #mapid {
