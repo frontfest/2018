@@ -752,7 +752,8 @@ aside .overlay-menu li a {
 }
 
 .sn-icon {
-  height: 40px;
+  margin-right: 8px;
+  height: 30px;
 }
 
 #mapid {
