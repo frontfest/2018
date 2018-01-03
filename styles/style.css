@@ -93,7 +93,7 @@ p {
 }
 
 .avatar {
-  width: 4rem;
+  height: 4rem;
 }
 
 .max-width-200 {
@@ -132,6 +132,10 @@ p {
 
 .width-full {
   width: 100%;
+}
+
+.margin-negative {
+  margin-right: -0.8rem;
 }
 
 .margin-right {
@@ -728,8 +732,9 @@ aside .overlay-menu li a {
 }
 
 .speaker {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
+  flex-basis: 140px;
 }
 
 .padding-left-20 {
@@ -847,6 +852,7 @@ aside .overlay-menu li a {
     margin-bottom: 120px;
   }
   .speaker {
+    flex-basis: 180px;
     width: 180px;
     height: 180px;
   }
