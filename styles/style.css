@@ -41,6 +41,7 @@ button {
 
 a {
   text-decoration: underline;
+  color: inherit;
 }
 
 .bold {
