@@ -77,7 +77,7 @@ p {
 }
 
 .title-white {
-  font-size: 2.4rem;
+  font-size: 2rem;
   color: #ccc;
   font-family: 'JosefinSans';
 }
@@ -194,6 +194,16 @@ p {
 .btn.transparent {
   border: 2px solid #222;
   background-color: transparent;
+}
+
+.btn.reverse {
+  border: 2px solid #ddd;
+  color: #ddd;
+  background-color: transparent;
+}
+
+.btn.reverse:hover {
+  border-color: #cc9900;
 }
 
 .btn.transparent:hover {
