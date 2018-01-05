@@ -97,6 +97,10 @@ p {
   height: 4rem;
 }
 
+.height-32 {
+  height: 32px;
+}
+
 .max-width-200 {
   max-width: 200px;
 }
@@ -155,10 +159,20 @@ p {
   margin-bottom: 1.5rem;
 }
 
+.height-76 {
+  height: 76px;
+}
+
+.height-20 {
+  height: 20px;
+}
+
 .btn {
   text-decoration: none;
-  background-color: #ffcc00;
-  padding: 12px 28px;
+  background-color: #fff;
+  height: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
   color: #222;
   font-weight: bold;
   transition: 0.25s;
@@ -171,7 +185,7 @@ p {
 }
 
 .btn:hover {
-  background-color: #cc9900;
+  border-color: #cc9900;
   text-decoration: none;
 }
 
@@ -181,7 +195,7 @@ p {
 }
 
 .btn.transparent:hover {
-  background-color: #cc9900;
+  border-color: #cc9900;
 }
 
 .btn.disabled {
@@ -744,6 +758,14 @@ aside .overlay-menu li a {
 
 .padding-right-20 {
   padding-right: 20px;
+}
+
+.padding-left-12 {
+  padding-left: 12px;
+}
+
+.padding-right-12 {
+  padding-right: 12px;
 }
 
 .margin-top-25 {
