@@ -144,11 +144,11 @@ p {
 }
 
 .margin-right {
-  margin-right: 1.5rem;
+  margin-right: 1.25rem;
 }
 
 .margin-left {
-  margin-left: 1.5rem;
+  margin-left: 1.25rem;
 }
 
 .margin-top {
@@ -171,8 +171,8 @@ p {
   text-decoration: none;
   background-color: #fff;
   height: 40px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #222;
   font-weight: bold;
   transition: 0.25s;
