@@ -182,6 +182,8 @@ p {
   width: -moz-fit-content;
   width: fit-content;
   cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .btn:hover {
