@@ -53,35 +53,38 @@ ga('send', 'pageview');
 
 /* Leaflet map */
 
-var mymap = L.map('mapid', { dragging: false, scrollWheelZoom: false }).setView([40.3492, -3.698], 16);
+window.addEventListener('load', function() {
+  var mymap = L.map('mapid', { dragging: false, scrollWheelZoom: false }).setView([40.3492, -3.698], 16);
 
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-  maxZoom: 18,
-  attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-    '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-    'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-  id: 'mapbox.streets'
-}).addTo(mymap);
-
-L.marker([40.3478149, -3.6963])
-  .addTo(mymap)
-  .bindPopup('<img style="width: 100px" src="../images/lanave-logo.png">')
-  .openPopup();
-
-var cercaniasIcon = L.icon({
-    iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Cercanias_Logo.svg/450px-Cercanias_Logo.svg.png',
-    iconSize:     [32, 32], // size of the icon
-    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
-    popupAnchor:  [16, 16] // point from which the popup should open relative to the iconAnchor
+  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+    maxZoom: 18,
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+      '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+      'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    id: 'mapbox.streets'
+  }).addTo(mymap);
+  
+  L.marker([40.3478149, -3.6963])
+    .addTo(mymap)
+    .bindPopup('<img style="width: 100px" src="../images/lanave-logo.png">')
+    .openPopup();
+  
+  var cercaniasIcon = L.icon({
+      iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Cercanias_Logo.svg/450px-Cercanias_Logo.svg.png',
+      iconSize:     [32, 32], // size of the icon
+      iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
+      popupAnchor:  [16, 16] // point from which the popup should open relative to the iconAnchor
+  });
+  
+  L.marker([40.35072, -3.70535], {icon: cercaniasIcon}).addTo(mymap).bindPopup('<strong>Puente Alcocer</strong><br />Cercanías C5');
+  
+  var metroIcon = L.icon({
+      iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/MetroMadridLogo.svg/768px-MetroMadridLogo.svg.png',
+      iconSize:     [48, 30], // size of the icon
+      iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
+      popupAnchor:  [24, 15] // point from which the popup should open relative to the iconAnchor
+  });
+  
+  L.marker([40.35135, -3.69315], {icon: metroIcon}).addTo(mymap).bindPopup('<strong>Villaverde Bajo - Cruce</strong><br />Metro L3');
+  
 });
-
-L.marker([40.35072, -3.70535], {icon: cercaniasIcon}).addTo(mymap).bindPopup('<strong>Puente Alcocer</strong><br />Cercanías C5');
-
-var metroIcon = L.icon({
-    iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/MetroMadridLogo.svg/768px-MetroMadridLogo.svg.png',
-    iconSize:     [48, 30], // size of the icon
-    iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
-    popupAnchor:  [24, 15] // point from which the popup should open relative to the iconAnchor
-});
-
-L.marker([40.35135, -3.69315], {icon: metroIcon}).addTo(mymap).bindPopup('<strong>Villaverde Bajo - Cruce</strong><br />Metro L3');
