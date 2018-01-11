@@ -42,14 +42,14 @@ document.querySelector('#toggleMenu').addEventListener('click', function() {
 });
 
 /* Google Analytics */
-
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', '{{ site.google-analytics.id }}', 'auto');
-ga('send', 'pageview');
+// 
+// (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+//             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+//         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+// })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+//
+// ga('create', '{{ site.google-analytics.id }}', 'auto');
+// ga('send', 'pageview');
 
 /* Leaflet map */
 
@@ -63,28 +63,28 @@ window.addEventListener('load', function() {
       'Imagery © <a href="http://mapbox.com">Mapbox</a>',
     id: 'mapbox.streets'
   }).addTo(mymap);
-  
+
   L.marker([40.3478149, -3.6963])
     .addTo(mymap)
     .bindPopup('<img style="width: 100px" src="../images/lanave-logo.png">')
     .openPopup();
-  
+
   var cercaniasIcon = L.icon({
       iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Cercanias_Logo.svg/450px-Cercanias_Logo.svg.png',
       iconSize:     [32, 32], // size of the icon
       iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
       popupAnchor:  [16, 16] // point from which the popup should open relative to the iconAnchor
   });
-  
+
   L.marker([40.35072, -3.70535], {icon: cercaniasIcon}).addTo(mymap).bindPopup('<strong>Puente Alcocer</strong><br />Cercanías C5');
-  
+
   var metroIcon = L.icon({
       iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/MetroMadridLogo.svg/768px-MetroMadridLogo.svg.png',
       iconSize:     [48, 30], // size of the icon
       iconAnchor:   [0, 0], // point of the icon which will correspond to marker's location
       popupAnchor:  [24, 15] // point from which the popup should open relative to the iconAnchor
   });
-  
+
   L.marker([40.35135, -3.69315], {icon: metroIcon}).addTo(mymap).bindPopup('<strong>Villaverde Bajo - Cruce</strong><br />Metro L3');
-  
+
 });
