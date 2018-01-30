@@ -566,16 +566,17 @@ aside .overlay-menu li a {
 }
 
 .platinum-sponsors img {
-  width: 300px;
+  width: 320px;
 }
 
 .gold-sponsors img {
-  width: 250px;
+  width: 260px;
 }
 
 .sponsors-in-kind img,
 .silver-sponsors img {
-  width: 200px;
+  width: 180px;
+  margin: 0 50px;
 }
 
 .collaborators-sponsors img {
